@@ -1,5 +1,6 @@
 package JavaCore.OOPs;
 
+
 class Tractor{
     String model;
     int roll;
