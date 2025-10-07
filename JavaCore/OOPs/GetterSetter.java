@@ -31,6 +31,9 @@ public class GetterSetter{
         Pencil pen = new Pencil();  // call by Object
         pen.setColor("Brown");
         System.out.println(pen.getColor()); // return blue
-        pen.setTip(0);
+        pen.setTip(5);
+        System.out.println(pen.getTip());
+        pen.setColor("Yellow");
+        System.out.println(pen.getColor());
     }
 }
