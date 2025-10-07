@@ -21,3 +21,5 @@ console.log(obj);
 
 console.log(obj.unmae);
 console.log(obj["uid"]);
+
+// ! update -- objectname.keyname = new
