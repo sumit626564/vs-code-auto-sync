@@ -56,4 +56,12 @@ let std2 = new student(2, 'pavan','BE')
 console.log(std2)
 
 
-// ! Objectmethods
+// ! Object methods
+let user = {
+    uname : 'Mahi',
+    age : 20,
+    addres : "HYD"
+}
+console.log(user);
+
+// ! key() : reu
