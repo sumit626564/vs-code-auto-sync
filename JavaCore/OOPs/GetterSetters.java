@@ -18,10 +18,14 @@ class Pen{
     String color;
     int tip;
 
-    int getColor(){
-        return this.color;
+    // Getter function
+    String getColor(){
+        return this.color;  // this is special keywords in java, which is point to particular propertip
     }
-
+    int getTip(){
+        return this.tip;
+    }
+    
     // Setter function
     void setColor(String newColor){
         color = newColor;
