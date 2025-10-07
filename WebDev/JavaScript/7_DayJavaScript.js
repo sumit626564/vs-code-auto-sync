@@ -79,8 +79,8 @@ console.log(flipkart.indexOf('book'));
 console.log(flipkart.indexOf('watch'));
 
 // ! at(index) : returns element present in the specified index
-console.log(http://flipkart.at(3));
-console.log(http://flipkart.at(30));
+//console.log(http://flipkart.at(3));
+//console.log(http://flipkart.at(30));
 
 // ! includes(element) : check specified element is included in the array or not
 console.log(flipkart.includes('watch'));
