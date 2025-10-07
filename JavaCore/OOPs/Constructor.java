@@ -50,7 +50,5 @@ public class Constructor {
 
         // type Constructor in java
         father fh = new father();
-        fh.name("Bhaskar Singh");
-        System.out.println(fh.name);
     }
 }
