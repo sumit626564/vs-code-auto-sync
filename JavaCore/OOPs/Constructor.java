@@ -1,6 +1,27 @@
 package JavaCore.OOPs;
 
+/* There are three type of Constructor
+ *  1. Non-Paraemterized
+ *  2. Parameterized
+ *  3. Copy Constructor
+ */
 
+class father{
+    String name;
+    int age;
+
+    // Non-Parameterized Constructor
+    father(){
+        System.out.println("Your Father Name is: Mr. Bhaskar Singh");
+    }
+
+    // Parameterized Constructor
+    father(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+}
+ // #################//#endregion#######################
 class Tractor{
     String model;
     int roll;
