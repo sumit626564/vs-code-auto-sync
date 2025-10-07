@@ -4,9 +4,11 @@ class Tractor{
     String model;
     int roll;
 
+    // Constructor 1: takes a  string
     Tractor(String name){
         this.model = name;
     }
+    // Constructor 2: takes a int
     Tractor(int Roll){
         this.roll = Roll;
     }
@@ -14,8 +16,5 @@ class Tractor{
 public class Constructor {
     
     public static void main(String[] args) {
-        Tractor tr = new Tractor("Eicher 380");
-        System.out.println(tr.model);
-        Tractor tr = new Tractor("Eicher" "380" );
     }
 }
