@@ -6,7 +6,8 @@ public class ClassObject {
         Pen p1 = new Pen();  // "Pen()" is Construction   // created a pen object called p1
         p1.setColor("Blue");
         System.out.println(p1.color);
-
+        p1.setTip(5);
+        System.out.println(p1.tip);
     }
 }
 
