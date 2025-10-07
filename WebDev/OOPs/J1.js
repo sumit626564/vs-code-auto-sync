@@ -22,4 +22,9 @@ console.log(obj);
 console.log(obj.unmae);
 console.log(obj["uid"]);
 
-// ! update -- objectname.keyname = new
+// ! update -- objectname.keyname = newval / objectname["keyname"] = newval
+obj.uid = 222
+obj["address"] = "mumbai"
+console.log(obj);
+
+// ! add -- objectname.keyname = val / objectname["keyname"]
