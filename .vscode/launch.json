@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GetterSetter",
+            "request": "launch",
+            "mainClass": "JavaCore.OOPs.GetterSetter",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
