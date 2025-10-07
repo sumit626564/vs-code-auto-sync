@@ -38,3 +38,4 @@ delete obj["address"]
 console.log(obj);
 
 // ? 2.Object constructor
+// ? 3.Costructor function
