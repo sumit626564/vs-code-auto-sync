@@ -27,4 +27,9 @@ obj.uid = 222
 obj["address"] = "mumbai"
 console.log(obj);
 
-// ! add -- objectname.keyname = val / objectname["keyname"]
+// ! add -- objectname.keyname = val / objectname["keyname"] = val
+obj.age = 34
+obj["contact"] = 23456789
+console.log(obj);
+
+// ! delete -- delete objectname.keyname / delete objectname["keyname"]
