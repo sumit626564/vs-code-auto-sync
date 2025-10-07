@@ -18,7 +18,13 @@ class Pen{
     int tip;
 
     // creating function
-    void setColor(String colo)
+    void setColor(String newColor){
+        color = newColor;
+    }
+
+    void setTip(int newTip){
+        tip = newTip;
+    }
 }
 
 class Animal
