@@ -20,5 +20,7 @@ class Tractor{
 public class Constructor {
     
     public static void main(String[] args) {
+        Tractor t1 = new Tractor(380);
+        System.out.println(t1.model);
     }
 }
