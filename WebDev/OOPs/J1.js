@@ -73,4 +73,6 @@ console.log(Object.values(user));
 // ! entries(objectname) : returns nested array --
 console.log(Object.entries(user));
 
-// ! has Own (Objectname, 'keyname') : check whether the key is  pre
+// ! hasOwn(Objectname, 'keyname') : check whether the key is  present in the object or not
+console.log(Object.hasOwn(user,'age'));
+console.log(Object.hasOwn(user,'contact'));
