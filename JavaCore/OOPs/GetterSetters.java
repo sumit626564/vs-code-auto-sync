@@ -12,7 +12,7 @@ public class GetterSetters {
     public static void main(String[] args) {
         Pen pen = new Pen();
         pen.setColor("Blue");
-        System.out.println("This setColor is: " + pen.getColor());
+        System.out.println(pen.getColor());
         pen.setTip(5);
         System.out.println(pen.getTip());
         pen.setColor("Yellow");
