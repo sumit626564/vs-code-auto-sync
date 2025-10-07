@@ -15,8 +15,8 @@ public class GetterSetters {
 }
 
 class Pen{
-    String color;
-    int tip;
+    private String color;
+    private int tip;
 
     // Getter function
     String getColor(){
@@ -25,7 +25,7 @@ class Pen{
     int getTip(){
         return this.tip;
     }
-    
+
     // Setter function
     void setColor(String newColor){
         color = newColor;
