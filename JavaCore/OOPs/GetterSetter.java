@@ -18,6 +18,8 @@ class Pencil{
     int getTip(){
         return this.tip;
     }
+    
+    // setter function
     void setColor(String color_new){
         color = color_new;
     }
