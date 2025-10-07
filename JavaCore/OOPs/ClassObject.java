@@ -8,6 +8,8 @@ public class ClassObject {
         System.out.println(p1.color);
         p1.setTip(5);
         System.out.println(p1.tip);
+        p1.color = "Yellow";
+        System.out.println(p1.color);
     }
 }
 
