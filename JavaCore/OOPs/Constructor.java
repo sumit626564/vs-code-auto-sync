@@ -13,8 +13,8 @@ class Tractor{
         this.roll = Roll;
     }
     // Constructor 3: takes two strings (optional)
-    Tractor(String brand, String Number){
-        this.model = brand + " " + Number
+    Tractor(String brand, String number){
+        this.model = brand + " " + number;
     }
 }
 public class Constructor {
