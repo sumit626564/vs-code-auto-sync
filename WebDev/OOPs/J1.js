@@ -38,4 +38,19 @@ delete obj["address"]
 console.log(obj);
 
 // ? 2.Object constructor
+let car = new Object()
+car.brand = 'BMW'
+car.color = 'White'
+console.log(car);
+
 // ? 3.Costructor function
+function student(sid,sname,course){
+    this.sid = sid;
+    this.sname = sname;
+    this.course = course;
+}
+let std1 = new student(1,'sam','BCA')
+console.log(std1);
+
+let std2 = new student(2, 'pavan','BE')
+console.log(std2)
