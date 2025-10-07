@@ -18,5 +18,7 @@ class Pen{
     String color;
     int tip;
 
-    int getColor()
+    int getColor(){
+        return this.color;
+    }
 }
