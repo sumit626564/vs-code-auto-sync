@@ -7,6 +7,8 @@ public class ClassObject {
     }
 }
 
+// pen is object 
+
 class Pen{
     // Properties  & Function
     // Below the String and int is properties
@@ -27,4 +29,12 @@ class Pen{
     }
 }
 
-class Animal
+class Student{
+    String name;
+    int age;
+    float percentage;  // CGPA
+
+    void calPercentage(int phy, int chem, int math){
+        percentage = (phy + chem + math) / 3;
+    }
+}
