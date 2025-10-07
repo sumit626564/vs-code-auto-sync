@@ -12,6 +12,10 @@ class Tractor{
     Tractor(int Roll){
         this.roll = Roll;
     }
+    // Constructor 3: takes two strings (optional)
+    Tractor(String brand, String Number){
+        this.model = brand + " " + Number
+    }
 }
 public class Constructor {
     
