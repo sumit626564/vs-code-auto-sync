@@ -64,4 +64,7 @@ let user = {
 }
 console.log(user);
 
-// ! key() : reu
+// ! key() : returns array of keys
+console.log(Object.keys(user));
+
+// ! values(objectname) : return
