@@ -67,4 +67,10 @@ console.log(user);
 // ! key() : returns array of keys
 console.log(Object.keys(user));
 
-// ! values(objectname) : return
+// ! values(objectname) : returns array of values
+console.log(Object.values(user));
+
+// ! entries(objectname) : returns nested array --
+console.log(Object.entries(user));
+
+// ! has Own (Objectname, 'keyname') : check whether the key is  pre
