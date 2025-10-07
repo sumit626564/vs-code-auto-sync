@@ -1,5 +1,11 @@
 package JavaCore.OOPs;
 
+/*Getters & Setters
+ *      Get: to return the value
+ *      Set: to modfiy the value
+ * 
+ * Note:- "this": this keyword is used to refer to the current object
+ */
 public class GetterSetters {
     
     public static void main(String[] args) {
