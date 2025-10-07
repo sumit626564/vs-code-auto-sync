@@ -21,4 +21,12 @@ class Pen{
     int getColor(){
         return this.color;
     }
+
+    // Setter function
+    void setColor(String newColor){
+        color = newColor;
+    }
+    void setTip(int newTip){
+        tip = newTip;
+    }
 }
