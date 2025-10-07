@@ -54,3 +54,6 @@ console.log(std1);
 
 let std2 = new student(2, 'pavan','BE')
 console.log(std2)
+
+
+// ! Objectmethods
