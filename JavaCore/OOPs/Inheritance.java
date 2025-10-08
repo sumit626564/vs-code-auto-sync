@@ -66,3 +66,14 @@ class Mammals extends Animal{
 class Dog extends Mammals {
     String breed;
 }
+
+
+// Hierarchical Inheritance
+/*
+ *                  {Base Class}
+ *                       |
+ *        ---------------------------------
+ *        |                               |
+ *        |                               |
+ *     {Derived Class}               {Derived Class}
+ */
