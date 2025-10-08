@@ -10,6 +10,16 @@ public class Inheritance {
     }
 }
 
+// Note :- Inheritance & Single Level Inheritance both are same
+
+/* Types of Inheritance
+ * Single Level Iheritance
+ *          {Base Class}
+ *               |
+ *               |
+ *          {Derived Class}
+ */
+
 // base class
 class Animal{
     String color;
@@ -33,11 +43,14 @@ class Fish extends Animal{
 
 }
 
-
-/* Types of Inheritance
- * Single Level Iheritance
+// Multi Level Inheritance
+/*
  *          {Base Class}
  *               |
  *               |
  *          {Derived Class}
+ *               |
+ *               |
+ *          {Derived Class}
+ *        
  */
