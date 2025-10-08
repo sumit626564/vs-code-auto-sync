@@ -41,8 +41,10 @@ class Tractor{
         this.model = brand + " " + number;
     }
 
-    Tractor(Tractor t3){
-        this.name = t1.name;
+    Tractor(Tractor other){
+        this.model = other.model;
+        this.roll = other.roll;
+        this.password = other.password;
     }
 }
 
@@ -57,7 +59,7 @@ public class Constructor {
         System.out.println(t2.model);
         
         Tractor t3 = new Tractor(t1);
-        System.out.println("Copied Tractor modle: ");
+        System.out.println("Copied Tractor modle: " + t3.model);
 
         // type Constructor in java
             // call non-parameterized
