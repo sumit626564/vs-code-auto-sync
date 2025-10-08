@@ -7,6 +7,9 @@ public class Inheritance {
         shark.eat();
         shark.breath();
         shark.swim();
+
+        Dog dooby = new Dog();
+        dooby.
     }
 }
 
@@ -51,6 +54,13 @@ class Fish extends Animal{
  *          {Derived Class}
  *               |
  *               |
- *          {Derived Class}
- *        
+ *          {Derived Class}    
  */
+
+class Mammals extends Animal{
+    int legs;
+}
+
+class Dog extends Mammals {
+    String breed;
+}
