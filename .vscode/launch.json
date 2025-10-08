@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FunArr",
+            "request": "launch",
+            "mainClass": "JavaCore.Array.FunArr",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "Constructor",
             "request": "launch",
             "mainClass": "JavaCore.OOPs.Constructor",
