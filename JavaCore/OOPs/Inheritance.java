@@ -17,7 +17,9 @@ public class Inheritance {
         System.out.println(dooby.legs);
 
         // Hierarchical Inheritance
-        
+        Bird bird = new Bird();
+        bird.eat();
+        bird.fly();
     }
 }
 
