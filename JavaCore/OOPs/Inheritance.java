@@ -3,15 +3,21 @@ package JavaCore.OOPs;
 public class Inheritance {
     
     public static void main(String[] args) {
-        //Fish shark = new Fish();
-        //shark.eat();
-        //shark.breath();
-        //shark.swim();
 
+        // Single Inheritance
+        Fish shark = new Fish();
+        shark.eat();
+        shark.breath();
+        shark.swim();
+
+        // Multilevel Inheritance
         Dog dooby = new Dog();
         dooby.eat();
         dooby.legs = 4;
         System.out.println(dooby.legs);
+
+        // Hierarchical Inheritance
+        
     }
 }
 
@@ -75,5 +81,23 @@ class Dog extends Mammals {
  *        ---------------------------------
  *        |                               |
  *        |                               |
- *     {Derived Class}               {Derived Class}
+ *    {Derived Class}                 {Derived Class}
  */
+
+class Mammal extends Animal{
+    void walk(){
+        System.out.println("Walks");
+    }
+}
+
+class fish extends Animal{
+    void swim() {
+        System.out.println("swim");
+    }
+}
+
+class Bird extends Animal {
+    void fly(){
+        System.out.println("fly");
+    }
+}
