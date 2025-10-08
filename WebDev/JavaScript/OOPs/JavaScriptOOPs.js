@@ -76,3 +76,9 @@ console.log(Object.entries(user));
 // ! hasOwn(Objectname, 'keyname') : check whether the key is  present in the object or not
 console.log(Object.hasOwn(user,'age'));
 console.log(Object.hasOwn(user,'contact'));
+
+// Object.seal(user)
+
+// add
+user.phone = 6265642463
+console.log
