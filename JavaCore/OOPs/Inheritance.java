@@ -3,13 +3,15 @@ package JavaCore.OOPs;
 public class Inheritance {
     
     public static void main(String[] args) {
-        Fish shark = new Fish();
-        shark.eat();
-        shark.breath();
-        shark.swim();
+        //Fish shark = new Fish();
+        //shark.eat();
+        //shark.breath();
+        //shark.swim();
 
         Dog dooby = new Dog();
-        dooby.
+        dooby.eat();
+        dooby.legs = 4;
+        System.out.println(dooby.legs);
     }
 }
 
