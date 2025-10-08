@@ -3,7 +3,7 @@ package JavaCore.OOPs;
 public class Inheritance {
     
     public static void main(String[] args) {
-        
+        Fish
     }
 }
 
@@ -22,5 +22,10 @@ class Animal{
 
 // Derived Class
 class Fish extends Animal{
-    
+    int fins;
+
+    void swim(){
+        System.out.println("swims in water");
+    }
+
 }
