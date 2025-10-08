@@ -40,6 +40,8 @@ class Tractor{
     Tractor(String brand, String number){
         this.model = brand + " " + number;
     }
+
+    Tractor(Tractor t3)
 }
 
 // Copy Constructor :  One single object1  copy properties to 2nd properties and ..etc
@@ -51,6 +53,8 @@ public class Constructor {
         System.out.println(t1.model);
         Tractor t2 = new Tractor("Eicher","380");
         System.out.println(t2.model);
+        
+        Tractor t3 = new Tractor(t1);
 
         // type Constructor in java
             // call non-parameterized
@@ -59,6 +63,9 @@ public class Constructor {
         father fh2 = new father("Bhaskar Singh", 45);
         System.out.println("Your Father Name: "+fh2.name);
         System.out.println("Your Father Age: "+fh2.age);
+
+        // Copy Constructor
+        
 
     }
 }
