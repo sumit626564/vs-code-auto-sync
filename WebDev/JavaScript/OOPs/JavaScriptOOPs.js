@@ -78,4 +78,20 @@ console.log(Object.hasOwn(user,'age'));
 console.log(Object.hasOwn(user,'contact'));
 
 
-// ! freeze() : to freeze the object --cannot add, delete
+// ! freeze() : to freeze the object --cannot add, delete and update
+Object.freeze(user)
+
+// add
+user.phone = 7724987010
+console.log(user);
+
+// delete
+delete user.age
+console.log(user);
+
+// update
+user.age = 22
+console.log(user);
+
+// ? access
+console.log(user.uname)
