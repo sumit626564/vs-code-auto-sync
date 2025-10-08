@@ -26,6 +26,7 @@ class father{
 class Tractor{
     String model;
     int roll;
+    String password;
 
     // Constructor 1: takes a  string
     Tractor(String name){
@@ -41,7 +42,8 @@ class Tractor{
     }
 }
 
-// Copy Constructor :  One single object copy properties to 2nd properties and ..etc
+// Copy Constructor :  One single object1  copy properties to 2nd properties and ..etc
+
 public class Constructor {
     
     public static void main(String[] args) {
