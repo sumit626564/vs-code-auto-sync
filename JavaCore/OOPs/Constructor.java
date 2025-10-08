@@ -60,6 +60,8 @@ public class Constructor {
         
         Tractor t3 = new Tractor(t1);
         System.out.println("Copied Tractor modle: " + t3.model);
+        System.out.println("Copied Tractor modle: " + t3.password);
+
 
         // type Constructor in java
             // call non-parameterized
