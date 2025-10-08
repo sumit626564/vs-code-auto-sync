@@ -103,5 +103,3 @@ class Bird extends Animal {
         System.out.println("fly");
     }
 }
-
-// Sumit
