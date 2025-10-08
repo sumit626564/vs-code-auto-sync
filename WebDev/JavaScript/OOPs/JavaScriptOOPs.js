@@ -95,3 +95,18 @@ console.log(user);
 
 // ? access
 console.log(user.uname)
+
+let user = {
+    uname : 'Mahi',
+    age : 20,
+    address : 'HYD'
+}
+console.log(user);
+
+let work ={
+    company : 'cnx',
+    role : 'Front-end Developer',
+    salary: 45000
+}
+
+// ! assign(target_object, obj1, obj2, obj3....) : used to merge
