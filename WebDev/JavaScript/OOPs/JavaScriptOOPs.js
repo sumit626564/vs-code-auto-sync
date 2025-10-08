@@ -96,12 +96,12 @@ console.log(user);
 // ? access
 console.log(user.uname)
 
-let user = {
-    uname : 'Mahi',
-    age : 20,
-    address : 'HYD'
-}
-console.log(user);
+//let userr = {
+//    uname : 'Mahi',
+//    age : 20,
+//    address : 'HYD'
+//}
+//console.log(userr);
 
 let work ={
     company : 'cnx',
@@ -110,10 +110,10 @@ let work ={
 }
 
 // ! assign(target_object, obj1, obj2, obj3....) : used to merge
-Object.assign(user,work)
-console.log(user);
+//Object.assign(user,work)
+//console.log(user);
 
-let newObj = Object.assign({}, user, work)
+let newObj = Object.assign({},work)
 console.log(newObj);
-console.log(user);
-cons
+//console.log(userr);
+console.log(work);
