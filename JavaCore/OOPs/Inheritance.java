@@ -32,3 +32,8 @@ class Fish extends Animal{
     }
 
 }
+
+
+/* Types of Inheritance
+ * Single Level Iheritance
+ */
