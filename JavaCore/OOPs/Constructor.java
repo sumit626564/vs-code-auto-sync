@@ -40,6 +40,8 @@ class Tractor{
         this.model = brand + " " + number;
     }
 }
+
+// Copy Constructor :  One single object copy properties to 2nd properties and ..etc
 public class Constructor {
     
     public static void main(String[] args) {
