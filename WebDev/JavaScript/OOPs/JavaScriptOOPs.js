@@ -77,8 +77,5 @@ console.log(Object.entries(user));
 console.log(Object.hasOwn(user,'age'));
 console.log(Object.hasOwn(user,'contact'));
 
-// Object.seal(user)
 
-// add
-user.phone = 6265642463
-console.log
+// ! freeze() : to freeze the object --cannot add, delete
