@@ -110,3 +110,10 @@ let work ={
 }
 
 // ! assign(target_object, obj1, obj2, obj3....) : used to merge
+Object.assign(user,work)
+console.log(user);
+
+let newObj = Object.assign({}, user, work)
+console.log(newObj);
+console.log(user);
+cons
