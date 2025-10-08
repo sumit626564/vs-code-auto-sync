@@ -3,7 +3,10 @@ package JavaCore.OOPs;
 public class Inheritance {
     
     public static void main(String[] args) {
-        Fish
+        Fish shark = new Fish();
+        shark.eat();
+        shark.breath();
+        shark.swim();
     }
 }
 

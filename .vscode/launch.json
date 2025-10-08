@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Inheritance",
+            "request": "launch",
+            "mainClass": "JavaCore.OOPs.Inheritance",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "FunArr",
             "request": "launch",
             "mainClass": "JavaCore.Array.FunArr",
