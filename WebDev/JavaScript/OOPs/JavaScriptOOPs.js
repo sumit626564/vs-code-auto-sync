@@ -117,3 +117,8 @@ let newObj = Object.assign({},work)
 console.log(newObj);
 //console.log(userr);
 console.log(work);
+
+// ! call(), apply() and bind()
+let fullname = function(salary, location){
+    
+}
