@@ -41,7 +41,9 @@ class Tractor{
         this.model = brand + " " + number;
     }
 
-    Tractor(Tractor t3)
+    Tractor(Tractor t3){
+        this.name = t1.name;
+    }
 }
 
 // Copy Constructor :  One single object1  copy properties to 2nd properties and ..etc
@@ -55,6 +57,7 @@ public class Constructor {
         System.out.println(t2.model);
         
         Tractor t3 = new Tractor(t1);
+        System.out.println("Copied Tractor modle: ");
 
         // type Constructor in java
             // call non-parameterized
