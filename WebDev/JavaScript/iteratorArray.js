@@ -57,5 +57,24 @@ console.log(Math.sqrt(9));
 
 // cbrt(num)
 console.log(Math.cbrt(81));
-console.log(Math.)
-// round(num)
+console.log(Math.cbrt(27));
+
+// round(num) : round up the number to the nearest integer
+console.log(Math.round(3.6));
+console.log(Math.round(-30.6));
+
+// Floor(num) : round up the number to the nearest lowest integer
+console.log(Math.floor(9.8));
+console.log(Math.floor(67.2));
+console.log(Math.floor(-89.89));
+
+// celi(num) : round up the number to the nearest highest integer
+console.log(Math.ceil(3.5));
+console.log(Math.ceil(-89));
+
+// trunc(num) : return only integer
+console.log(Math.trunc(-89.89));
+console.log(Math.trunc(68.5));
+
+// max(num1, num2, num3,.....) : return maximum or minimum
+console.log(Math.max(90, 30, 12, 23, -23, -89));
