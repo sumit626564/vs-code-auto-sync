@@ -12,7 +12,7 @@ public class PloyMethodOverloading {
     }
 }
 
-// Method Overriding
+// Method OverLoading 
 class Calculator {
 
     // Function, but different parameter
@@ -26,5 +26,14 @@ class Calculator {
 
     int sum(int a, int b, int c){
         return a + b + c;
+    }
+}
+
+
+// Method Overriding
+
+calss Animal{
+    void eat(){
+        System.out.println("");
     }
 }
