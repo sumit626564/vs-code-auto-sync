@@ -41,4 +41,9 @@ console.log(d.getSeconds());
 // "! 1947 aug 15" if you want to paricualr date according to user or itself
 d.setFullYear(1947)
 d.setMonth(0)
-d.set
+d.setDate(17)
+
+// cosole.log(d);
+
+console.log(d.toLocaleDateString()) // used for "DD/MM/YYY"
+console.log(d.toLocaleTimeString()) // used for "12:15 PM"
