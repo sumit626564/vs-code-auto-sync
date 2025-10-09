@@ -6,4 +6,9 @@ public class AbstractMehtod {
     }
 }
 
-abstract
+abstract class animal{
+    /* Non-Abstraction function */
+    void eat() {
+        System.out.println("animal eats");
+    }
+}
