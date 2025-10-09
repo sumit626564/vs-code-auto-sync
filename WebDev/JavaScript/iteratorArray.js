@@ -76,5 +76,8 @@ console.log(Math.ceil(-89));
 console.log(Math.trunc(-89.89));
 console.log(Math.trunc(68.5));
 
-// max(num1, num2, num3,.....) : return maximum or minimum
+// max(num1, num2, num3,.....) : return maximum or minimum 
 console.log(Math.max(90, 30, 12, 23, -23, -89));
+
+// random() : generate the random number between 0-1
+console.log(Math.random());
