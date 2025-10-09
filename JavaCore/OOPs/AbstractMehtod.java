@@ -2,7 +2,9 @@ package JavaCore.OOPs;
 
 public class AbstractMehtod {
     public static void main(String[] args) {
-        
+        Horse h = new Horse();
+        h.eat();
+        h.walk();
     }
 }
 
@@ -22,5 +24,7 @@ class Horse extends animal{
 }
 
 class Chicken extends Animla {
-
+    void walk(){
+        System.out.println("walks on 2 legs");
+    }
 }
