@@ -10,7 +10,7 @@ public class AbstractMehtod {
         Chicken c = new Chicken();
         c.eat();
         c.walk();
-        System.out.println(c.color);
+        
     }
 }
 
@@ -18,8 +18,11 @@ abstract class animal{
 
     // Constructor
     String color;
+    //animal(){
+    //    color = "brown";  // by default create color "brown"
+    //}
     animal(){
-        color = "brown";  // by default create color "brown"
+        System.out.println("animal constructor called");
     }
 
     /* Non-Abstraction function */
@@ -34,6 +37,9 @@ abstract class animal{
 
 class Horse extends animal{
     // Dervied constructor  which we are created in above class
+    Horse(){
+        System.out.println("Horse Constructor called");
+    }
     void changeColor(){
         color = "dark Brown";
     }
