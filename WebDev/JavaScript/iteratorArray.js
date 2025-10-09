@@ -47,3 +47,15 @@ d.setDate(17)
 
 console.log(d.toLocaleDateString()) // used for "DD/MM/YYY"
 console.log(d.toLocaleTimeString()) // used for "12:15 PM"
+
+// ! Math object
+// pow(base,exp)
+console.log(Math.pow(2,3));
+
+// sqrt(num)
+console.log(Math.sqrt(9));
+
+// cbrt(num)
+console.log(Math.cbrt(81));
+console.log(Math.)
+// round(num)
