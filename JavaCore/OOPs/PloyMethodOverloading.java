@@ -12,6 +12,7 @@ public class PloyMethodOverloading {
     }
 }
 
+// Method Overriding
 class Calculator {
 
     // Function, but different parameter
