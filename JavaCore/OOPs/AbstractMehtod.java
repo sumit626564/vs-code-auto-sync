@@ -13,11 +13,13 @@ public class AbstractMehtod {
 }
 
 abstract class animal{
+
     // Constructor
     String color;
     animal(){
-        
+        color = "brown";
     }
+    
     /* Non-Abstraction function */
     void eat() {
         System.out.println("animal eats");
