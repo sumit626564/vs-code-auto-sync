@@ -5,10 +5,12 @@ public class AbstractMehtod {
         Horse h = new Horse();
         h.eat();
         h.walk();
+        System.out.println(h.color);
 
         Chicken c = new Chicken();
         c.eat();
         c.walk();
+        System.out.println(c.color);
     }
 }
 
