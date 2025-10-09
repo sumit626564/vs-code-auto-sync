@@ -49,6 +49,12 @@ class Horse extends animal{
     }
 }
 
+class Mustang extends Horse {
+    Mustang(){
+        System.out.println("Mustang are the braed of Horse");
+    }
+}
+
 class Chicken extends animal {
     void changeColor(){
         color = "Yellow";
