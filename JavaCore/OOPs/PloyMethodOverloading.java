@@ -9,6 +9,8 @@ public class PloyMethodOverloading {
         System.out.println(clc.sum(12, 12));
         System.out.println(clc.sum(12, 13, 14));
 
+        // 
+
     }
 }
 
@@ -32,8 +34,14 @@ class Calculator {
 
 // Method Overriding
 
-calss Animal{
+class Animal{
     void eat(){
-        System.out.println("");
+        System.out.println("easts anything");
+    }
+}
+
+class Deer extends Animal{
+    void eat(){
+        System.out.println("eats grass");
     }
 }
