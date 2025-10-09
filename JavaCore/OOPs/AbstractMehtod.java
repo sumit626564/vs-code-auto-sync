@@ -13,12 +13,19 @@ public class AbstractMehtod {
 }
 
 abstract class animal{
+    // Constructor
+    String color;
+    animal(){
+        
+    }
     /* Non-Abstraction function */
     void eat() {
         System.out.println("animal eats");
     }
 
-    abstract void walk();  // we no need to implemnt current class we will implemnt in next class
+    abstract void walk(); 
+    // Walk in 
+     // we no need to implemnt current class we will implemnt in next class
 }
 
 class Horse extends animal{
