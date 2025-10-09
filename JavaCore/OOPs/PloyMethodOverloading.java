@@ -9,8 +9,9 @@ public class PloyMethodOverloading {
         System.out.println(clc.sum(12, 12));
         System.out.println(clc.sum(12, 13, 14));
 
-        // 
-
+        //  Mehtod OverRidding
+        Animal ani = new Animal();
+        ani.eat();
     }
 }
 
