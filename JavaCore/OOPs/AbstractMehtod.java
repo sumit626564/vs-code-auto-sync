@@ -17,9 +17,9 @@ abstract class animal{
     // Constructor
     String color;
     animal(){
-        color = "brown";
+        color = "brown";  // by default create color "brown"
     }
-    
+
     /* Non-Abstraction function */
     void eat() {
         System.out.println("animal eats");
@@ -31,12 +31,20 @@ abstract class animal{
 }
 
 class Horse extends animal{
+    // Dervied constructor  which we are created in above class
+    void changeColor(){
+        color = "dark Brown";
+    }
+
     void walk(){
         System.out.println("Walks on 4 legs");
     }
 }
 
 class Chicken extends animal {
+    void changeColor(){
+        color = "Yellow";
+    }
     void walk(){
         System.out.println("walks on 2 legs");
     }
