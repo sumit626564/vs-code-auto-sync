@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PloyMethodOverloading",
+            "request": "launch",
+            "mainClass": "JavaCore.OOPs.PloyMethodOverloading",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "Inheritance",
             "request": "launch",
             "mainClass": "JavaCore.OOPs.Inheritance",
