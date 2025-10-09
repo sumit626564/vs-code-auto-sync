@@ -5,8 +5,9 @@ package JavaCore.OOPs;
 public class PloyMethodOverloading {
     public static void main(String[] args) {
         Calculator  clc = new Calculator();
-        System.out.println(clc.sum((float)12.5, (float)13.6));
+        System.out.println(clc.sum((float)12.5, (float)13.6));   // by default jaif you write any in decimal. java consider  see like type "Double"
         System.out.println(clc.sum(12, 12));
+        System.out.println(clc.sum(12, 13, 14));
 
     }
 }
