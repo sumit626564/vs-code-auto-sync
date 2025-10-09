@@ -5,6 +5,10 @@ public class AbstractMehtod {
         Horse h = new Horse();
         h.eat();
         h.walk();
+
+        Chicken c = new Chicken();
+        c.eat();
+        c.walk();
     }
 }
 
@@ -23,7 +27,7 @@ class Horse extends animal{
     }
 }
 
-class Chicken extends Animla {
+class Chicken extends animal {
     void walk(){
         System.out.println("walks on 2 legs");
     }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AbstractMehtod",
+            "request": "launch",
+            "mainClass": "JavaCore.OOPs.AbstractMehtod",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "PloyMethodOverloading",
             "request": "launch",
             "mainClass": "JavaCore.OOPs.PloyMethodOverloading",
