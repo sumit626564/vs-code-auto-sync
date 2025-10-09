@@ -1,3 +1,26 @@
 // ! ITERATORS
 
-// ? forEach() : hof -- by executing the callback function each element of 
+// ? forEach() : hof -- by executing the callback function each element of the array 
+// it will iterate over array
+
+let nums = [10, 20, 30, 40, 50, 60, 80]
+nums.forEach((value, ind)=>{
+    console.log(value*100);
+})
+
+// ? for of : used to iterate overy the array
+for(let n of nums){
+    console.log(n);
+}
+
+// ? for in : used to iterate overy keys of an objects
+let bike = {
+    brand : 'pulsur',
+    color : 'red',
+    engine : 'petrol'
+}
+
+for(let k in bike){
+    // console.log(k)
+    console.log(bike[k]);
+}
