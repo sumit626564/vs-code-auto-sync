@@ -10,6 +10,9 @@ public class AbstractMehtod {
         Chicken c = new Chicken();
         c.eat();
         c.walk();
+
+        Mustang myHorse = new Mustang();
+        // animla --> Horse --> Mustang     // This is a hierarchical 
         
     }
 }
