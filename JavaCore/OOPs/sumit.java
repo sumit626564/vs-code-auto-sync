@@ -2,18 +2,18 @@ package JavaCore.OOPs;
 
 public class sumit {
     public static void main(String[] args) {
-        father fh = new father();
-        fh.fathername = "Bhaskar Singh";
-        System.out.println("Father Name: "+fh.fathername);
-        fh.age = 54;
-        System.out.println("Father Age: "+ fh.age);
+        mother mh = new mother();
+        mh.fathername = "Bhaskar Singh";
+        System.out.println("Father Name: "+mh.fathername);
+        mh.age = 54;
+        System.out.println("Father Age: "+ mh.age);
     }
 }
 class Singh{
     String name;
     int weight;
 }
-class father extends Singh{
+class mother extends Singh{
     int age;
     String fathername;
 }
