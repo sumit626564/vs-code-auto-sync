@@ -6,4 +6,11 @@ console.log(str[2]);
 
 // ! String methods
 // ! Slice(start_index, end_index) : to get the part of the string
-console.log()
+console.log(str.slice(2,8));
+console.log(str.slice(8));
+console.log(str.slice(-5))  // reverse
+
+// ! substring() : it is similar to slice but here negative index won't work
+console.log(str.substring(2,8));
+console.log(str.substring(8));
+console.log(str.substring(-5));
