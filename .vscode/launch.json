@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Pratice",
+            "request": "launch",
+            "mainClass": "JavaCore.OOPs.Pratice",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "AbstractMehtod",
             "request": "launch",
             "mainClass": "JavaCore.OOPs.AbstractMehtod",
