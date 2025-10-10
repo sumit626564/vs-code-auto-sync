@@ -21,12 +21,17 @@ public class Inheritance {
         //bird.eat();
         //bird.fly();
 
-        Animal an =  new Animal();
-        an.color = "blue";
-        System.out.println("The colour is: "+an.color);
-        an.eat();
-        an.breath();
-        an.swim();
+        //Animal an =  new Animal();
+        //an.color = "blue";
+        //System.out.println("The colour is: "+an.color);
+        //an.eat();
+        //an.breath();
+
+        Mammal mam = new Mammal();
+        mam.breath();
+        mam.color = "Yellow";
+        System.out.println("The Colour is : "+mam.color);
+        mam.walk();
     }
 }
 
