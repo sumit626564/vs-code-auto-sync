@@ -5,10 +5,10 @@ public class Inheritance {
     public static void main(String[] args) {
 
          //Single Inheritance
-        Fish shark = new Fish();
-        shark.eat();
-        shark.breath();
-        shark.swim();
+        //Fish shark = new Fish();
+        //shark.eat();
+        //shark.breath();
+        //shark.swim();
 
         //// Multilevel Inheritance
         //Dog dooby = new Dog();
@@ -21,11 +21,12 @@ public class Inheritance {
         //bird.eat();
         //bird.fly();
 
-        //Animal an =  new Animal();
-        //an.color = "blue";
-        //System.out.println("The colour is: "+an.color);
-        //an.eat();
-        //an.breath();
+        Animal an =  new Animal();
+        an.color = "blue";
+        System.out.println("The colour is: "+an.color);
+        an.eat();
+        an.breath();
+        an.swim();
     }
 }
 
