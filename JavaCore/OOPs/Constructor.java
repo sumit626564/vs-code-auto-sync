@@ -65,7 +65,7 @@ public class Constructor {
 
         // type Constructor in java
             // call non-parameterized
-        father fh = new father();
+       // father fh = new father();
             //  call parameterized
         father fh2 = new father("Bhaskar Singh", 45);
         System.out.println("Your Father Name: "+fh2.name);

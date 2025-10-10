@@ -11,7 +11,7 @@ public class AbstractMehtod {
         c.eat();
         c.walk();
 
-        Mustang myHorse = new Mustang();
+        //Mustang myHorse = new Mustang();
         // animla --> Horse --> Mustang     // This is a hierarchical 
         
     }
