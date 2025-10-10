@@ -17,3 +17,5 @@ console.log(str.substring(-5));
 
 // ! substr(start_index, length_of_res_str) : to get the part of the string
 console.log(str.substr(3,4));
+
+// ! replace(oldstr, newstr)
