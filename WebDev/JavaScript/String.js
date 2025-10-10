@@ -32,3 +32,22 @@ console.log(txt.trim());
 
 // ! indexOf(str)
 console.log(str.indexOf('Good'));
+console.log(str.indexOf('v'));
+console.log(str.indexOf('o'));
+
+// ! lastIndexoF()
+console.log(str.lastIndexOf('o'));
+
+// ! includes()
+console.log(str.includes('M'));
+console.log(str.includes('Evening'));
+
+// ! repeat(num)
+console.log(str.repeat(5));
+
+// ! charAt(index)
+console.log(str.charAt(8));
+console.log(str.charAt(80));
+
+// ! charCodeAt(index)
+console.log(str.charCodeAt(8));
