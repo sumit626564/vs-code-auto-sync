@@ -81,3 +81,15 @@ console.log(Math.max(90, 30, 12, 23, -23, -89));
 
 // random() : generate the random number between 0-1
 console.log(Math.random());
+
+// ! OTP GENERATION
+
+function generationOtp(){
+    let text = 'qwertyuiopasdfghjklzxcvbnm'
+    let otp = ''
+    for(let i=1;i<=4;i++){
+        otp += text[Math.floor(Math.random()*text.length)]  //6874
+    }
+    alert(`OTP si ${otp}`);   //0.7808*text.length--4.6778--4
+}
+generationOtp()
