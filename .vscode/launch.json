@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sumit",
+            "request": "launch",
+            "mainClass": "JavaCore.OOPs.sumit",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "Pratice",
             "request": "launch",
             "mainClass": "JavaCore.OOPs.Pratice",
