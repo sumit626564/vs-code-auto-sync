@@ -51,3 +51,16 @@ console.log(str.charAt(80));
 
 // ! charCodeAt(index)
 console.log(str.charCodeAt(8));
+
+// ! concat()
+console.log(str.concat(txt));
+
+// ! padStart(Length_of_res_str, char)
+// XXXXXXXXX98
+let a = '98'
+console.log(a.padStart(10,'X'));
+
+// ! padEnd(Length_of_res_str, char)
+// 6789XXXXXXXX
+let b = '6889'
+console.log(b.padEnd(12,'X'))
