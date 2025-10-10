@@ -23,7 +23,7 @@ console.log(str.replace('Evening','Morning'));
 console.log(str.replace('o','l'));
 
 // ! replaceAll(oldstr, newstr)
-console.log(str.replaceAll('o',w));
+console.log(str.replaceAll('o','w'));
 
 // !trim()
 let txt = "today is the great day"
