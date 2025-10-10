@@ -19,3 +19,16 @@ console.log(str.substring(-5));
 console.log(str.substr(3,4));
 
 // ! replace(oldstr, newstr)
+console.log(str.replace('Evening','Morning'));
+console.log(str.replace('o','l'));
+
+// ! replaceAll(oldstr, newstr)
+console.log(str.replaceAll('o',w));
+
+// !trim()
+let txt = "today is the great day"
+console.log(txt);
+console.log(txt.trim());
+
+// ! indexOf(str)
+console.log(str.indexOf('Good'));
