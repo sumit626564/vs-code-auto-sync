@@ -30,4 +30,13 @@ console.log(boxes);
 let arr = Array.from(boxes)
 console.log(arr);
 
-// ! getElementBytagname("Tagname") : mul
+// ! getElementBytagname("Tagname") : multiple elments with the tagname
+console.log(document.getElementsByTagName('button'));
+
+// ! querySelector("selector") : single elment with css selector
+console.log(document.querySelector('#heading')) // for particular id
+console.log(document.querySelector('.box'))  // for particular class
+console.log(document.querySelector('button'));
+
+// ! querySelectorAll("selector") : multiple elements with css selector
+console.log(document.querySelectorAll('#btn_blk button'));
