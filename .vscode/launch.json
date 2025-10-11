@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TryCatch",
+            "request": "launch",
+            "mainClass": "JavaCore.ErrorHandeling.TryCatch",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "sumit",
             "request": "launch",
             "mainClass": "JavaCore.OOPs.sumit",
