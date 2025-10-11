@@ -8,6 +8,10 @@ public class TryCatch {
         // multiple catch
         MultipleCatch NewMul = new MultipleCatch();
         NewMul.multi(36);
+
+        // Try Finally
+        TryFinallyClass NewFinal =  new TryFinallyClass();
+        NewFinal.fina(35);
     }
 }
 
@@ -49,7 +53,7 @@ class TryFinallyClass{
             this.finaa = tryfin / 0;
         }finally {
             this.finaa = tryfin / 6;
-            System.out.println("Finally block  result");
+            System.out.println("Finally block  result: "+ finaa);
         }
     }
 }
