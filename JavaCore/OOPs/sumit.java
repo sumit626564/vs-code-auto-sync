@@ -1,21 +1,18 @@
 package JavaCore.OOPs;
 
 
-class laptop{
-    void print(){
-        System.out.println("Laptop HP Brand AMD Ryzen");
-    }
-}
-class hp extends laptop{
-    void printfunction(){
-        System.out.println("Base class(Laptop)");
+class Book{
+    int price;
+    static int count;
+
+    public Book(int price){
+        this.price =  price;
+        count++;
     }
 }
 public class sumit {
     public static void main(String[] args) {
-        laptop obj1 = new hp();
-        obj1.print();
-        laptop obj2 = new laptop();
-        obj2.printfunction();
+        System.out.println();
+        
     }
 }
