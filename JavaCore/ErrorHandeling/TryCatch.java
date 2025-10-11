@@ -43,5 +43,13 @@ class MultipleCatch{
 // tryfinally
 
 class TryFinallyClass{
-    void finally(int)
+    int finaa;
+    void fina(int tryfin){
+        try{
+            this.finaa = tryfin / 0;
+        }finally {
+            this.finaa = tryfin / 6;
+            System.out.println("Finally block  result");
+        }
+    }
 }
