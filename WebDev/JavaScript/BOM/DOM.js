@@ -11,5 +11,8 @@ heading.innerText = '<i> Good <i>'
 heading.id = 'demo'
 
 // ! setAttribute('arr_name', "att_val") : adding new attribute
-heading.setAttribute('title', to)
+heading.setAttribute('title', "Today is the great DynamicsCompressorNode.apply.!");
 
+// ! style : adding styles to the elements
+heading.style.color = 'red'
+document.body.style.backgroundColor = 'black'
