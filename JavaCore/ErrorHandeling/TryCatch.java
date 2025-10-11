@@ -39,3 +39,9 @@ class MultipleCatch{
         }
     }
 }
+
+// tryfinally
+
+class TryFinallyClass{
+    void finally(int)
+}
