@@ -20,4 +20,14 @@ console.log(document.forms)
 // ! DOM Targetting methods
 // ! getElementId('id') : element with unique id
 
-console.log(document.getElementById('heading'))
+console.log(document.getElementById('heading'));
+
+// ! getElementByClassName("classname") : multiple elements with classname
+// returns HTML collection : Array like proejct
+let boxes = document.getElementsByClassName("box");
+console.log(boxes);
+
+let arr = Array.from(boxes)
+console.log(arr);
+
+// ! getElementBytagname("Tagname") : mul
