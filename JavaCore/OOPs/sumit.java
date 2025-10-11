@@ -8,12 +8,13 @@ class laptop{
 }
 class hp extends laptop{
     void print(){
-        System.out.println("Base class(Vechile)");
+        System.out.println("Base class(Laptop)");
     }
 }
 public class sumit {
 
     public static void main(String[] args) {
-        
+        hp boj1 =  new laptop();
+        obj1.print();
     }
 }
