@@ -4,6 +4,9 @@ public class TryCatch {
     public static void main(String[] args){
         TryCatchClass TryNew =  new TryCatchClass();
         TryNew.trycatch(36);
+
+        // multiple catch
+        MultipleCatch NewMul = 
     }
 }
 
@@ -31,7 +34,7 @@ class MultipleCatch{
         } catch(NullPointerException e1){
             System.out.println("Error: "+ e1.getMessage());
         }catch(ArithmeticException e2){
-            System.out.println("Error: "+);
+            System.out.println("Error: "+e2.getMessage());
         }
     }
 }
