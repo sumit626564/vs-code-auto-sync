@@ -2,12 +2,14 @@ package JavaCore.ErrorHandeling;
 
 public class TryCatch {
     public static void main(String[] args){
-        tryCatch TryNew =  new tryCatch();
+        TryCatchClass TryNew =  new TryCatchClass();
         TryNew.trycatch(36);
     }
 }
 
-class tryCatch{
+// try....catch
+
+class TryCatchClass{
     int result;
     void trycatch(int resu){
         try{
@@ -16,4 +18,11 @@ class tryCatch{
             System.out.println("Error: "+ e.getMessage());
         }
     }
+}
+
+// multiple catch
+
+
+class MultipleCatch{
+    
 }
