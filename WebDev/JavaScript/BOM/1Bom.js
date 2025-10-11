@@ -15,3 +15,9 @@ console.log(document.scripts);
 console.log(document.images);
 console.log(document.links);
 console.log(document.forms)
+
+
+// ! DOM Targetting methods
+// ! getElementId('id') : element with unique id
+
+console.log(document.getElementById('heading'))
