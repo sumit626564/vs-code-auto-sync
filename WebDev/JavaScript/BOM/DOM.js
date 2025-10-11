@@ -19,3 +19,7 @@ document.body.style.backgroundColor = 'black'
 
 // !  creatElement(tagname) : create a new element
 let d = document.createElement('div')
+d.textContent = 'Hello I am Div'
+console.log(d);
+
+// ! 
