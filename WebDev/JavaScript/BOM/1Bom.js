@@ -5,3 +5,6 @@ console.log(window.navigator);
 console.log(screen);
 console.log(history);
 console.log(document);  //DOM
+
+
+//DOM
