@@ -24,5 +24,14 @@ class TryCatchClass{
 
 
 class MultipleCatch{
-    
+    int mul;
+    public void multi(int mu){
+        try{
+            this.mul = mu / 1;
+        } catch(NullPointerException e1){
+            System.out.println("Error: "+ e1.getMessage());
+        }catch(ArithmeticException e2){
+            System.out.println("Error: "+);
+        }
+    }
 }
