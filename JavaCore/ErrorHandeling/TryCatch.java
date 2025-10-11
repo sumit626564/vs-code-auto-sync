@@ -58,3 +58,17 @@ class TryFinallyClass{
     }
 }
 
+// try Catch Finally:
+class TryCatchFinally{
+    int tcf;
+    void trycatchfinally(int tc){
+        try{
+            this.tcf = tc / 0;
+        }catch(ArithmeticException e){
+            System.out.println("Error: " + e.getMessage());
+        }finally{
+            this.tcf = tc / 6;
+            System.out.println("Finally Block result: "+);
+        }
+    }
+}
