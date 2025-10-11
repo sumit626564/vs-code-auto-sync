@@ -12,6 +12,10 @@ public class TryCatch {
         // Try Finally
         TryFinallyClass NewFinal =  new TryFinallyClass();
         NewFinal.fina(35);
+
+        // Trc...Catch....Finally
+        TryCatchFinally trc = new TryCatchFinally();
+        trc.trycatchfinally(36);
     }
 }
 
@@ -47,7 +51,7 @@ class MultipleCatch{
 // tryfinally
 
 class TryFinallyClass{
-    //int finaa;
+    int finaa;
     void fina(int tryfin){
         try{
             this.finaa = tryfin / 0;
@@ -68,7 +72,7 @@ class TryCatchFinally{
             System.out.println("Error: " + e.getMessage());
         }finally{
             this.tcf = tc / 6;
-            System.out.println("Finally Block result: "+);
+            System.out.println("Finally Block result: "+ tcf);
         }
     }
 }
