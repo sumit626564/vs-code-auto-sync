@@ -6,7 +6,8 @@ public class TryCatch {
         TryNew.trycatch(36);
 
         // multiple catch
-        MultipleCatch NewMul = 
+        MultipleCatch NewMul = new MultipleCatch();
+        NewMul.multi(36);
     }
 }
 
