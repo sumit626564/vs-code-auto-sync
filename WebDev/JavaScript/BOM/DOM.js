@@ -22,4 +22,9 @@ let d = document.createElement('div')
 d.textContent = 'Hello I am Div'
 console.log(d);
 
-// ! 
+// ! appendChild(), append() --- adding new element
+document.body.appendChild(d)
+
+// ! removeChild(), remove() : deleteing an element
+heading.remove()
+d.remove()
