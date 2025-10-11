@@ -47,7 +47,7 @@ class MultipleCatch{
 // tryfinally
 
 class TryFinallyClass{
-    int finaa;
+    //int finaa;
     void fina(int tryfin){
         try{
             this.finaa = tryfin / 0;
