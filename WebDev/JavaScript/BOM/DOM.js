@@ -11,8 +11,11 @@ heading.innerText = '<i> Good <i>'
 heading.id = 'demo'
 
 // ! setAttribute('arr_name', "att_val") : adding new attribute
-heading.setAttribute('title', "Today is the great DynamicsCompressorNode.apply.!");
+heading.setAttribute('title', 'Today is the great apply.!');
 
 // ! style : adding styles to the elements
 heading.style.color = 'red'
 document.body.style.backgroundColor = 'black'
+
+// !  creatElement(tagname) : create a new element
+let d = document.createElement('div')
