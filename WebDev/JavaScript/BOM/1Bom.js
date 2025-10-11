@@ -8,3 +8,10 @@ console.log(document);  //DOM
 
 
 //DOM
+console.log(document.head);
+console.log(document.body)
+console.log(document);
+console.log(document.scripts);
+console.log(document.images);
+console.log(document.links);
+console.log(document.forms)
