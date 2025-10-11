@@ -12,7 +12,6 @@ class hp extends laptop{
     }
 }
 public class sumit {
-
     public static void main(String[] args) {
         laptop obj1 = new hp();
         obj1.print();
