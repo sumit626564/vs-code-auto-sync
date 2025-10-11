@@ -14,8 +14,8 @@ class hp extends laptop{
 public class sumit {
 
     public static void main(String[] args) {
-        //hp boj1 =  new laptop();
-        //obj1.print();
+        laptop obj1 = new hp();
+        obj1
         laptop obj2 = new laptop();
         obj2.print();
     }
