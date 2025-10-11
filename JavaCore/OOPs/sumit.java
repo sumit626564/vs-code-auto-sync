@@ -7,7 +7,7 @@ class laptop{
     }
 }
 class hp extends laptop{
-    void print(){
+    void printfunction(){
         System.out.println("Base class(Laptop)");
     }
 }
@@ -17,6 +17,6 @@ public class sumit {
         laptop obj1 = new hp();
         obj1.print();
         laptop obj2 = new laptop();
-        obj2.print();
+        obj2.printfunction();
     }
 }
