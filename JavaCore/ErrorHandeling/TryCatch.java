@@ -16,14 +16,6 @@ public class TryCatch {
         // Trc...Catch....Finally
         TryCatchFinally trc = new TryCatchFinally();
         trc.trycatchfinally(36);
-
-        // throw
-        ThrowClass NewThrow = new ThrowClass();
-        try{
-            NewThrow.example(36);
-        }catch (ArithmeticException e){
-            System.out.println("Caught from main: "+ e.getMessage());
-        }
     }
 }
 // try....catch
@@ -81,13 +73,5 @@ class TryCatchFinally{
             this.tcf = tc / 6;
             System.out.println("Finally Block result: "+ tcf);
         }
-    }
-}
-
-// throws
-class ThrowClass{
-    int throwresult;
-    public void example(int thro) throws ArithmeticException{
-        this.throwresult =  thro / 0;
     }
 }
