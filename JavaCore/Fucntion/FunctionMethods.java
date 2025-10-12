@@ -23,6 +23,16 @@ class Greeting{
     }
 }
 
+/* Function Overloading(same name, different parameters) */
+class MathOperation{
+    /* same function but different parameters and same name is called Overloading */
+    int add(int a, int b){
+        return a+b;
+    }
+    double add(double a, double b){
+        return a*b;
+    }
+}
 public class FunctionMethods {
 
     /* Function inside same class (calling directly) */
@@ -48,5 +58,13 @@ public class FunctionMethods {
         /* Fucntion inside same class (calling directly)*/
         FunctionMethods MainClass = new FunctionMethods();   // Create object of same class
         MainClass.greet();          // call method
+
+        /* Function Overlaoding (same name, different parameters) */
+        MathOperation NewMath = new MathOperation();
+        double newmath = NewMath.add(20.1, 19.9);
+        System.out.println("Double: "+newmath);
+        int mathnew = NewMath.add(23, 13);      // double version
+        System.out.println("Integer: "+mathnew);   // int version
+
     }    
 }
