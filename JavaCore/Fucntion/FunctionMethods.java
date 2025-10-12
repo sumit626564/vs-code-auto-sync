@@ -15,6 +15,8 @@ class Calculator{
         return a+b;
     }
 }
+
+/* Using {static} method (no obejct required) */
 public class FunctionMethods {
     public static void main(String[] args) {
         Student s1 = new Student();
@@ -26,6 +28,6 @@ public class FunctionMethods {
         System.out.println("Second way of add: "+ result);
         System.out.println(("Frist way of add: "+ c1.add(12, 13)));
 
-        /* Using stai6 */
+        /* Using {static} method (no object required) */
     }    
 }
