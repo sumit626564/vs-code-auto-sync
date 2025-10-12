@@ -1,5 +1,7 @@
 package JavaCore.ErrorHandeling;
 
+import java.util.Scanner;
+
 public class ThorowThrows {
     public static void main(String[] args){
         ThrowExample NewThrow = new ThrowExample();
@@ -19,8 +21,11 @@ public class ThorowThrows {
 
         // ThrowExample3 {throw = throws}
         ThrowExampleThree NewExampleThree = new ThrowExampleThree();
+        Scanner userinput = new Scanner(System.in);
         try{
-            NewExampleThree.checkNumber(-1);
+            System.out.println("Dear Alex Enter YourInput: ");
+            int exmaple = userinput.nextInt();
+            NewExampleThree.checkNumber(exmaple);
         }catch (ArithmeticException e){
             System.out.println("Handled: "+ e.getMessage());
         }
