@@ -7,7 +7,13 @@ public class ThorowThrows {
 
         // Example 2
         ThrowExampleTwo NewExampleTwo = new ThrowExampleTwo();
-        NewExampleTwo.checkAge(9);
+        try{
+            NewExampleTwo.checkAge(16);
+        }catch(ArithmeticException e){
+            System.out.println("Exception caught: "+e.getMessage());
+        }
+
+        System.out.println("Program continues....");
     }
 }
 
