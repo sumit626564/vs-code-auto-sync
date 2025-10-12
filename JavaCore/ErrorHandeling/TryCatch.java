@@ -19,6 +19,11 @@ public class TryCatch {
 
         // throw
         ThrowClass NewThrow = new ThrowClass();
+        try{
+            Newthrow.example(36);
+        }catch (ArithmeticException e){
+            System.out.println("Caught from main: "+ );
+        }
     }
 }
 // try....catch
