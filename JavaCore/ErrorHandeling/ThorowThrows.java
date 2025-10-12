@@ -4,6 +4,10 @@ public class ThorowThrows {
     public static void main(String[] args){
         ThrowExample NewThrow = new ThrowExample();
         NewThrow.divide((13), 0);  // Will throw an exception
+
+        // Example 2
+        ThrowExampleTwo NewExampleTwo = new ThrowExampleTwo();
+        NewExampleTwo.checkAge(9);
     }
 }
 
@@ -25,7 +29,9 @@ class ThrowExample{
 class ThrowExampleTwo{
     void checkAge(int age){
         if(age<=18){
-            throw new ArithmeticException("You are not elegible")
+            throw new ArithmeticException("You are not elegible to vote..!");
+        }else{
+            System.out.println("You can vote!");
         }
     }
 }
