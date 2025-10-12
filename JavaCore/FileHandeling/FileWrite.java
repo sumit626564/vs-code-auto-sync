@@ -5,7 +5,8 @@ import java.io.IOException;
 public class FileWrite {
     public static void main(String[] args) {
         try{
-            File newdata = new FileWrite("")
+            FileWriter newdata = new FileWriter("stuu.txt");
+
         }
     }
 }
