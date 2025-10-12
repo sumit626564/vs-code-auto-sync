@@ -8,7 +8,7 @@ public class ThorowThrows {
         }catch(ArithmeticException e){
             System.out.println("Caught Exception: "+ e.getMessage());
         }
-        
+
         // Example 2
         ThrowExampleTwo NewExampleTwo = new ThrowExampleTwo();
         try{
@@ -42,6 +42,16 @@ class ThrowExampleTwo{
             throw new ArithmeticException("You are not elegible to vote..!");
         }else{
             System.out.println("You can vote!");
+        }
+    }
+}
+
+
+// Example3 -- Using throw + throws
+class ThrowExampleThree{
+    void checkNumber(int num) throws ArithmeticException{
+        if(num <0){
+            throw new ArithmeticException("Negative number not allowed")
         }
     }
 }
