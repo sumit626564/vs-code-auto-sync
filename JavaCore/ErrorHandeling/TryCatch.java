@@ -16,8 +16,9 @@ public class TryCatch {
         // Trc...Catch....Finally
         TryCatchFinally trc = new TryCatchFinally();
         trc.trycatchfinally(36);
-    }
-}
+
+        // throw
+        ThrowClass NewThrow = new ThrowClass();
 
 // try....catch
 
@@ -85,6 +86,8 @@ class ThrowClass{
 
         try{
             example();
-        }catch (ArithmeticException)
+        }catch (ArithmeticException e){
+            System.out.println(e);
+        }
     }
 }
