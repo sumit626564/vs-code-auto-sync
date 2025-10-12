@@ -20,9 +20,9 @@ public class TryCatch {
         // throw
         ThrowClass NewThrow = new ThrowClass();
         try{
-            Newthrow.example(36);
+            NewThrow.example(36);
         }catch (ArithmeticException e){
-            System.out.println("Caught from main: "+ );
+            System.out.println("Caught from main: "+ e.getMessage());
         }
     }
 }
@@ -34,7 +34,7 @@ class TryCatchClass{
         try{
             this.result = resu/0;
         }catch(ArithmeticException e){
-            System.out.println("Error: "+ e.getMessage());
+            System.out.println("Error Error: "+ e.getMessage());
         }
     }
 }
