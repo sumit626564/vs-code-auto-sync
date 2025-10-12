@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FileWrite",
+            "request": "launch",
+            "mainClass": "JavaCore.FileHandeling.FileWrite",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "FileDelete",
             "request": "launch",
             "mainClass": "JavaCore.FileHandeling.FileDelete",
