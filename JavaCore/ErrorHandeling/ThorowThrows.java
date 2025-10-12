@@ -3,8 +3,11 @@ package JavaCore.ErrorHandeling;
 public class ThorowThrows {
     public static void main(String[] args){
         ThrowExample NewThrow = new ThrowExample();
-        NewThrow.divide((13), 0);  // Will throw an exception
-
+            try{
+                NewThrow.divide((13), 0);  // Will throw an exception
+            }catch(ArithmeticException e){
+                System.out.println("Caught Exception: "+ e.getMessage());
+            }
         // Example 2
         ThrowExampleTwo NewExampleTwo = new ThrowExampleTwo();
         try{
