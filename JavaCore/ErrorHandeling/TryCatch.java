@@ -19,7 +19,8 @@ public class TryCatch {
 
         // throw
         ThrowClass NewThrow = new ThrowClass();
-
+    }
+}
 // try....catch
 
 class TryCatchClass{
