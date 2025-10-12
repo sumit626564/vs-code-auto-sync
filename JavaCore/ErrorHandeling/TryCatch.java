@@ -76,3 +76,11 @@ class TryCatchFinally{
         }
     }
 }
+
+// throws
+class ThrowClass{
+    int throwresult;
+    public static void example(int thro) throws ArithmeticException{
+        this.throwresult =  thro / 0;
+    }
+}
