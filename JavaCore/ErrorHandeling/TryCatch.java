@@ -83,11 +83,5 @@ class ThrowClass{
     int throwresult;
     public void example(int thro) throws ArithmeticException{
         this.throwresult =  thro / 0;
-
-        try{
-            example();
-        }catch (ArithmeticException e){
-            System.out.println(e);
-        }
     }
 }
