@@ -22,6 +22,6 @@ public class FunctionMethods {
 
         /* Function with parameters & return */
         Calculator c1 = new Calculator();
-        System.out.println(c1.add(13, 14));
+        System.out.println(("Calculator: "+ c1.add(12, 13)));
     }    
 }
