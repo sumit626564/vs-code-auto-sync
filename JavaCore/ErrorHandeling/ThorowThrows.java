@@ -6,6 +6,8 @@ public class ThorowThrows {
         NewThrow.divide((13), 0);  // Will throw an exception
     }
 }
+
+// Throw inside a method
 class ThrowExample{
     void divide(int a, int b){
         if(b==0){
@@ -13,6 +15,17 @@ class ThrowExample{
         }else{
             int result = a/b;
             System.out.println("Result: " + result);
+        }
+    }
+}
+
+// Example 2 Using {throw} with {try...catch}
+// Here, we throw an exception and catch it in the same or another method
+
+class ThrowExampleTwo{
+    void checkAge(int age){
+        if(age<=18){
+            throw new ArithmeticException("You are not elegible")
         }
     }
 }
