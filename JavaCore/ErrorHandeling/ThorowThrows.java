@@ -3,17 +3,16 @@ package JavaCore.ErrorHandeling;
 public class ThorowThrows {
     public static void main(String[] args){
         ThrowExample NewThrow = new ThrowExample();
-        try{
-            NewThrow.
-        }
+        NewThrow.divide((13), 0);  // Will throw an exception
     }
 }
 class ThrowExample{
     void divide(int a, int b){
-        if(a==b){
-            throw new ArithmeticException("You are not elegible to vote!");
+        if(b==0){
+            throw new ArithmeticException("You can't divide by zero!");
         }else{
-            System.out.println("You can vote!");
+            int result = a/b;
+            System.out.println("Result: " + result);
         }
     }
 }

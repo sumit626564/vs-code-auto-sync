@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ThorowThrows",
+            "request": "launch",
+            "mainClass": "JavaCore.ErrorHandeling.ThorowThrows",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "TryCatch",
             "request": "launch",
             "mainClass": "JavaCore.ErrorHandeling.TryCatch",
