@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FunctionMethods",
+            "request": "launch",
+            "mainClass": "JavaCore.Fucntion.FunctionMethods",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "ThorowThrows",
             "request": "launch",
             "mainClass": "JavaCore.ErrorHandeling.ThorowThrows",
