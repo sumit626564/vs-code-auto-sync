@@ -8,7 +8,7 @@ public class FileRead {
         try{
             File file = new File("stuu.txt");
             Scanner myReader = new Scanner(file);
-            while(myReader.hasN)
+            while(myReader.hasNextLine())
         }
     }
 }
