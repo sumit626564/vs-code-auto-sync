@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FileRead",
+            "request": "launch",
+            "mainClass": "JavaCore.FileHandeling.FileRead",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "Create",
             "request": "launch",
             "mainClass": "JavaCore.FileHandeling.Create",
