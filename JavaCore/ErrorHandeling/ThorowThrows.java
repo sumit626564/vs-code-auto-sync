@@ -30,6 +30,9 @@ public class ThorowThrows {
             System.out.println("Handled: "+ e.getMessage());
         }
         System.out.println("Program continues....");
+
+        // input close is very important if not closed your  input might be leaked
+        userinput.close();
     }
 }
 
