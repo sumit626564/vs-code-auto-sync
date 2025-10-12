@@ -11,7 +11,7 @@ class Student{
 
 /* Function with parameters and return type */
 class Calculator{
-    int add(int a, int b){
+    int add(int a, int b){      // Function with parameters & return
         return a+b;
     }
 }
@@ -19,5 +19,9 @@ public class FunctionMethods {
     public static void main(String[] args) {
         Student s1 = new Student();
         s1.Study();
+
+        /* Function with parameters & return */
+        Calculator c1 = new Calculator();
+        System.out.println(c1.add(13, 14));
     }    
 }
