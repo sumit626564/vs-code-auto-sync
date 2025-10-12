@@ -23,6 +23,12 @@ class Greeting{
     }
 }
 
+/* Function inside same class (calling directly) */
+public class Main{
+    void greet(){           // Non-static function
+        System.out.println("Hi from greet()");
+    }
+}
 public class FunctionMethods {
     public static void main(String[] args) {
         Student s1 = new Student();
@@ -41,5 +47,7 @@ public class FunctionMethods {
         Greeting.sayHello();    // called without object
 
         /* Fucntion inside same class (calling directly)*/
+        Main obj = new Main();   // Create object of same class
+        obj.greet();
     }    
 }
