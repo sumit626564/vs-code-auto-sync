@@ -17,6 +17,13 @@ public class ThorowThrows {
             System.out.println("Exception caught: "+e.getMessage());
         }
 
+        // ThrowExample3 {throw = throws}
+        ThrowExampleThree NewExampleThree = new ThrowExampleThree();
+        try{
+            NewExampleThree.checkNumber(-1);
+        }catch (ArithmeticException e){
+            System.out.println("Handled: "+ e.getMessage());
+        }
         System.out.println("Program continues....");
     }
 }
@@ -51,7 +58,9 @@ class ThrowExampleTwo{
 class ThrowExampleThree{
     void checkNumber(int num) throws ArithmeticException{
         if(num <0){
-            throw new ArithmeticException("Negative number not allowed")
+            throw new ArithmeticException("Negative number not allowed...!");
+        }else{
+            System.out.println("Positive number: "+ num);
         }
     }
 }
