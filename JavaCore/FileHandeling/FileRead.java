@@ -8,7 +8,14 @@ public class FileRead {
         try{
             File file = new File("stuu.txt");
             Scanner myReader = new Scanner(file);
-            while(myReader.hasNextLine())
+            while(myReader.hasNextLine()){
+                String data = myReader.nextLine();
+                System.out.println(data);
+            }
+            myReader.close();
+        }catch (FileNotFoundException e){
+            System.out.println("Error... ...");
+            e.printStackTrace();
         }
     }
 }
