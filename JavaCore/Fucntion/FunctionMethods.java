@@ -17,6 +17,12 @@ class Calculator{
 }
 
 /* Using {static} method (no obejct required) */
+class Greeting{
+    static void sayHello(){     // static method
+        System.out.println("Hello Sumit");
+    }
+}
+
 public class FunctionMethods {
     public static void main(String[] args) {
         Student s1 = new Student();
@@ -28,6 +34,12 @@ public class FunctionMethods {
         System.out.println("Second way of add: "+ result);
         System.out.println(("Frist way of add: "+ c1.add(12, 13)));
 
-        /* Using {static} method (no object required) */
+        /* Using {static} method (no object required) 
+         * Note:-
+         *      Use static:- when the method is not dependent ob object data.
+        */
+        Greeting.sayHello();    // called without object
+
+        /* Fucntion inside same class (calling directly)*/
     }    
 }
