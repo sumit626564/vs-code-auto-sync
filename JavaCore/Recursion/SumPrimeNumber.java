@@ -1,15 +1,18 @@
 package JavaCore.Recursion;
 
-class PrimeNumber{
-    public int NumberPrime(int primenumber){
-        if(primenumber == 1){
+class NaturalNumber{
+    public int NumberNatural(int naturalnumber){
+        if(naturalnumber == 0){
             return 1; // stop
         }
-        int stepone = N
+        int stepone = NumberNatural(naturalnumber - 1);
+        int steptwo = naturalnumber + stepone;
+        return steptwo;
     }
 }
 public class SumPrimeNumber {
     public static void main(String[] args){
-
-    }
+        NaturalNumber  newnatural = new NaturalNumber();
+        System.out.println(newnatural.NumberNatural(5));
+    }        
 }
