@@ -12,25 +12,25 @@ package JavaCore.OOPs;
 
 /* Constructor Chaining in the Same Class using this() */
 
-class Student {
+class Teacherstu{
     String name;
     int age;
     String course;
 
     // Constructor 1
-    Student() {
+    Teacherstu() {
         this("Unknown", 18); // calling constructor 2
         System.out.println("Default Constructor Called");
     }
 
     // Constructor 2
-    Student(String name, int age) {  // ✅ fixed comma
+    Teacherstu(String name, int age) {  // ✅ fixed comma
         this(name, age, "Not Assigned"); // calling constructor 3
         System.out.println("Two-Parameter Constructor Called");
     }
 
     // Constructor 3
-    Student(String name, int age, String course) {
+    Teacherstu(String name, int age, String course) {
         this.name = name;
         this.age = age;
         this.course = course;
@@ -44,7 +44,7 @@ class Student {
 
 public class ConstructorChaining {
     public static void main(String[] args) {
-        Student s1 = new Student();
+        Teacherstu s1 = new Teacherstu();
         s1.FileDisplay();
     }
 }
