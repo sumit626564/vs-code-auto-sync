@@ -46,7 +46,23 @@
 // ! event object : holds information of the event
 
 // ! dbclick
-//let btn = document.querySelector('button')
-//btn.addEventListener('dbclick',()=>{
-//    btn.alert('you clicked Button')
-//})
+let btn = document.querySelector('button')
+btn.addEventListener('dbclick',()=>{
+    btn.alert('you clicked Button')
+})
+
+// ! key events
+addEventListener('keypress',(e)=>{
+    console.log(e);
+    console.log('key is down');
+})
+
+addEventListener('keypress',(e)=>{
+    console.log(e);
+    console.log('key pressed');
+})
+
+addEventListener('keyup',(e)=>{
+    console.log(e);
+    console.log('key released')
+})
