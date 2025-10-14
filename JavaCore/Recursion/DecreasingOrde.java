@@ -1,16 +1,18 @@
 package JavaCore.Recursion;
 
-public class DecreasingOrde {
-    public static void DecreasingOrder(int number){
-        if(number == 1){
-            System.out.println(number);
-            return;
+class IncreasingDecreasing{
+    public void Decreasing(int downward){
+        if(downward == 1){
+            System.out.println(downward);
         }
-        System.out.print(number+", ");
-        DecreasingOrder(number - 1);
+        System.out.print(downward+", ");
+        Decreasing(downward);
     }
+}
+public class DecreasingOrde {
+    
     public static void main(String[] args) {
-        int decreasing = 10;
-        DecreasingOrder(decreasing);
+        IncreasingDecreasing  NewIncreasingOrder = new IncreasingDecreasing();
+        NewIncreasingOrder.Decreasing(10);
     }
 }
