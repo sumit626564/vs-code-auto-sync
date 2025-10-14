@@ -6,7 +6,7 @@ class IncreasingDecreasing{
             System.out.println(downward);
         }
         System.out.print(downward+", ");
-        Decreasing(downward);
+        Decreasing(downward - 1);
     }
 }
 public class DecreasingOrde {
