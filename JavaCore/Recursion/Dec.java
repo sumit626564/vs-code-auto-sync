@@ -1,6 +1,6 @@
 package JavaCore.Recursion;
 
-public class RecOne {
+public class Dec {
     public static void printDec(int n){
         if(n == 1){
             System.out.println(n);
