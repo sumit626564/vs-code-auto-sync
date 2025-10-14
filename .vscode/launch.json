@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DecreasingOrde",
+            "request": "launch",
+            "mainClass": "JavaCore.Recursion.DecreasingOrde",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "RecOne",
             "request": "launch",
             "mainClass": "JavaCore.Recursion.RecOne",
