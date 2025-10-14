@@ -1,6 +1,7 @@
 package JavaCore.Recursion;
 
 class IncreasingDecreasing{
+    /*             Decreasing Order             */
     public void Decreasing(int downward){
         // Base condition: stop when downward reaches 0(zero)
         if( downward  == 0){
@@ -10,6 +11,7 @@ class IncreasingDecreasing{
         Decreasing(downward - 1);   // recursive call 
     }
 
+    /*             Increasing Order             */
     public void Increasing(int upward){
         // Base Condition: stop when upward reaches 0(zero)
         if( upward > 10){
