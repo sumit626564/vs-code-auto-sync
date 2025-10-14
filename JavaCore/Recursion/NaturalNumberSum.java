@@ -10,7 +10,7 @@ class NaturalNumber{
         return steptwo;
     }
 }
-public class SumPrimeNumber {
+public class NaturalNumberSum {
     public static void main(String[] args){
         NaturalNumber  newnatural = new NaturalNumber();
         System.out.println(newnatural.NumberNatural(5));
