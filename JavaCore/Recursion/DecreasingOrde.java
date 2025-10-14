@@ -30,6 +30,7 @@ class IncreasingDecreasing{
         FactorialNumber(factnumber * (factnumber + 1));
     }
 }
+
 public class DecreasingOrde {
     
     public static void main(String[] args) {

@@ -42,7 +42,7 @@ class Teacherstu{
     }
 }
 
-public class ConstructorChaining {
+public class ConstructorChainingSameClass {
     public static void main(String[] args) {
         Teacherstu s1 = new Teacherstu();
         s1.FileDisplay();
