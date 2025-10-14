@@ -15,7 +15,7 @@ class IncreasingDecreasing{
         if( upward > 10){
             return; // stop
         }
-        System.out.println(upward + ", ");
+        System.out.print(upward + ", ");
         Increasing(upward + 1);
     }
 }
@@ -26,9 +26,9 @@ public class DecreasingOrde {
         System.out.print("Decreasing Order: ");
         NewIncreasingOrder.Decreasing(10);
 
-        System.out.println("Increasing Order: ");
-        NewIncreasingOrder.Increasing(10);
-        
+        System.out.print("\nIncreasing Order: ");
+        NewIncreasingOrder.Increasing(1); // start from 1 not 10
+
         System.out.println();  // for a clean new line after output
     }
 }
