@@ -23,8 +23,12 @@ public class DecreasingOrde {
     
     public static void main(String[] args) {
         IncreasingDecreasing  NewIncreasingOrder = new IncreasingDecreasing();
+        System.out.print("Decreasing Order: ");
         NewIncreasingOrder.Decreasing(10);
+
+        System.out.println("Increasing Order: ");
         NewIncreasingOrder.Increasing(10);
+        
         System.out.println();  // for a clean new line after output
     }
 }
