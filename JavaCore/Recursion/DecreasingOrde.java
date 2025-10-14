@@ -2,7 +2,6 @@ package JavaCore.Recursion;
 
 class IncreasingDecreasing{
     public void Decreasing(int downward){
-        p
         // Base condition: stop when downward reaches 0(zero)
         if( downward  == 0){
             return; // stop recrusion
@@ -16,6 +15,7 @@ public class DecreasingOrde {
     public static void main(String[] args) {
         IncreasingDecreasing  NewIncreasingOrder = new IncreasingDecreasing();
         NewIncreasingOrder.Decreasing(10);
+        
         System.out.println();  // for a clean new line after output
     }
 }
