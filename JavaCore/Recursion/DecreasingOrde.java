@@ -23,10 +23,10 @@ class IncreasingDecreasing{
 
     /*             Factorial Number          */
     public void FactorialNumber(int factnumber){
-        if(factnumber == 0){
-            return; // stop recrusion
+        if(factnumber == 1){
+            return 1; // stop recrusion
         }
-        int fn
+        return factnumber * FactorialNumber(factnumber - 1);
     }
 }
 
@@ -41,7 +41,7 @@ public class DecreasingOrde {
         NewIncreasingOrder.Increasing(1); // start from 1 not 10
 
         System.out.print("\nFactorial Order: ");
-        NewIncreasingOrder.FactorialNumber(12);
+        System.out.println(recrusion);
         System.out.println();  // for a clean new line after output
     }
 }
