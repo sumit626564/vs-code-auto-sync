@@ -46,9 +46,16 @@
 // ! event object : holds information of the event
 
 // ! dbclick
-let btn = document.querySelector('button')
-btn.addEventListener('dbclick',()=>{
-    btn.alert('you clicked Button')
+//let btn = document.querySelector('button')
+//btn.addEventListener('dbclick',()=>{
+//    btn.alert('you clicked Button')
+//})
+
+let f = document.forms[0]
+console.log(f);
+f.addEventListener('submit',(e)=>{
+    console.log(e);
+    
 })
 
 // ! key events
