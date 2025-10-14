@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConstructorChaningParentClass",
+            "request": "launch",
+            "mainClass": "JavaCore.OOPs.ConstructorChaningParentClass",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "DecreasingOrde",
             "request": "launch",
             "mainClass": "JavaCore.Recursion.DecreasingOrde",
