@@ -2,7 +2,7 @@ package JavaCore.Recursion;
 
 class NaturalNumber{
     public int NumberNatural(int naturalnumber){
-        if(naturalnumber == 0){
+        if(naturalnumber == 1){
             return 1; // stop
         }
         int stepone = NumberNatural(naturalnumber - 1);
