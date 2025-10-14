@@ -20,6 +20,15 @@ class IncreasingDecreasing{
         System.out.print(upward + ", ");
         Increasing(upward + 1);
     }
+
+    /*             Factorial Number          */
+    public void FactorialNumber(int factnumber){
+        if(factnumber == 1){
+            return; // stop recrusion
+        }
+        System.out.print(factnumber);
+        FactorialNumber(factnumber * (factnumber + 1));
+    }
 }
 public class DecreasingOrde {
     
@@ -31,6 +40,8 @@ public class DecreasingOrde {
         System.out.print("\nIncreasing Order: ");
         NewIncreasingOrder.Increasing(1); // start from 1 not 10
 
+        System.out.print("\nFactorial Order: ");
+        NewIncreasingOrder.FactorialNumber(12);
         System.out.println();  // for a clean new line after output
     }
 }
