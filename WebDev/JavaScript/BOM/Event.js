@@ -55,7 +55,8 @@ let f = document.forms[0]
 console.log(f);
 f.addEventListener('submit',(e)=>{
     console.log(e);
-    
+    e.preventDefault()
+    document.body.style.backgroundColor('yellow')
 })
 
 // ! key events
