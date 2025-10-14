@@ -46,7 +46,7 @@
 // ! event object : holds information of the event
 
 // ! dbclick
-let btn = document.querySelector('button')
-btn.addEventListener('dbclick',()=>{
-    btn.alert('you clicked Button')
-})
+//let btn = document.querySelector('button')
+//btn.addEventListener('dbclick',()=>{
+//    btn.alert('you clicked Button')
+//})
