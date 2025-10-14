@@ -26,8 +26,7 @@ class IncreasingDecreasing{
         if(factnumber == 0){
             return; // stop recrusion
         }
-        System.out.print(factnumber);
-        FactorialNumber(factnumber * (factnumber + 1));
+        int fn
     }
 }
 
