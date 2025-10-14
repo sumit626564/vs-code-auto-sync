@@ -2,10 +2,11 @@ package JavaCore.Recursion;
 
 class IncreasingDecreasing{
     public void Decreasing(int downward){
-        if(downward == 1){
-            System.out.println(downward);
+        // Base condition: stop when downward reaches 0(zero)
+        if( downward  == 0){
+            return; // stop recrusion
         }
-        System.out.print(downward+", ");
+        System.out.print(downward + ", ");
         Decreasing(downward - 1);
     }
 }
