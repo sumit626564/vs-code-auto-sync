@@ -9,8 +9,7 @@ public class Sorted {
         System.out.print("Enter Your TestCases: ");
         int testcase = input.nextInt();
         //Define main/max for each type of as BigIntger
-        BigInteger byteMin = BigInteger.valueOf(Byte.MIN_VALUE);
-        
+        BigInteger byteMin = BigInteger.valueOf(Byte.Min)
 
         input.close();
     }
