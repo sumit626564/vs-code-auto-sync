@@ -11,10 +11,10 @@ public class ArrayInput {
         for(int i = 0; i<sizearr; i++){
             storearr[i] = input.nextInt();
         }
-        int pair = 0;
+        int pair = (0);
         for(int j = 0; j<sizearr; j++){
             for(int m = 0; m<sizearr; m++){
-                if(j != m  && storearr[j] - storearr[m] == m - j){
+                while(j != m  && storearr[j] - storearr[m] == m - j){
                     pair++;
                 }
             }
