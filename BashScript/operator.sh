@@ -1,11 +1,13 @@
 #!/bin/bash
 
-:'arthimetic Operations
-$(( expression ))
-# comprasion:- -eq, -ne, -lt, -le, -gt, -ge
-# String:- =, !=, -z, -n
-'
+#arthimetic Operations
+#$(( expression ))
+#  +, -, *, /, %, **(power)
 a=5
 b=3
 echo $((a+b))
+echo "Product: $((a * b))"
+echo "Division: $((a / b))"
+################################
+
 
