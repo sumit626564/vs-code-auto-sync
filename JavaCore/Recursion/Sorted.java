@@ -8,7 +8,7 @@ public class Sorted {
         System.out.print("Enter Your Number: ");
         int N = input.nextInt();
         
-        if(N % 2 == 0 && ((N > 2 && N < 5) && N < 20)){
+        if(N % 2 == 0 && ((N > 2 && N < 5) && N > 20)){
             System.out.println("Not Weird");
         }else{
             System.out.println("Weird");
