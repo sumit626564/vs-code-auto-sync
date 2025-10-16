@@ -9,6 +9,10 @@ public class h1 {
         int narray = input.nextInt();
 
         // creating array
-        int[] nstore = new int[narray];
+        int[] simple = new int[narray];
+        System.out.println(simple);
+
+        input.close();
+
     }
 }
