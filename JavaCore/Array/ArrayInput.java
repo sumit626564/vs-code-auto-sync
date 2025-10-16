@@ -15,8 +15,8 @@ public class ArrayInput {
         for(int j = 0; j<sizearr; j++){
             for(int m = 0; m<sizearr; m++){
                 
-                if(j != m  && storearr[j] - storearr[m] == m - j){
-                    count =+ 1;
+                if(j != m && ((storearr[j] - storearr[m] % (j - m) == 0 && (storearr[j] - storearr[m]) / (j-m) == 1 )){
+                    count++;
                 }
                 System.out.println(count);
             }   
