@@ -1,5 +1,5 @@
 #!/bin/bash
 
-country = $indian
+country="indian"
 
-echo"country"
+echo $country
