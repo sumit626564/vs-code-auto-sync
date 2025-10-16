@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ProOne",
+            "request": "launch",
+            "mainClass": "JavaCore.CodeChef.ProOne",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "ArrayInput",
             "request": "launch",
             "mainClass": "JavaCore.Array.ArrayInput",
