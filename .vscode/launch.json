@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayInput",
+            "request": "launch",
+            "mainClass": "JavaCore.Array.ArrayInput",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "HackerArray",
             "request": "launch",
             "mainClass": "JavaCore.HackerEarth.HackerArray",

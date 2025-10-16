@@ -12,6 +12,7 @@ public class ArrayInput {
         int[] simple = new int[narray];
         for(int i = 0; i<narray; i++){
             simple[i] = input.nextInt();
+            i++;
         }
         System.out.println("Phy: ");
         for(int elment : simple){
