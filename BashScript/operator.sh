@@ -47,11 +47,18 @@ else
 fi
 
 # File Test Operators
-#  Operator     Description                             [ -e file.txt ]
-# -e            (File exists)                           [ -f file.txt ] 
-# -f             (File exists and is a regular file)    [ -d /home/sumit ]
-# -d             (Directory exists)
-# -r             (File is readiable)
-# -w              (File is writeable)
-# -x              (File is executable)
-# -a              (File size > 0)
+#  Operator     Description                             Example 
+# -e            (File exists)                           [ -e file.txt ]
+# -f             (File exists and is a regular file)    [ -f file.txt ]
+# -d             (Directory exists)                     [ -d /home/sumit ]
+# -r             (File is readiable)                    [ -r file.txt ]
+# -w              (File is writeable)                   [ -w file.txt ]
+# -x              (File is executable)                  [ -x script.sh ]
+# -a              (File size > 0)                       [ -s file.txt ]
+
+file="input.sh"
+if [ -x $file ]; then
+    echo "$file is executable"
+else
+    echo "$file is not executable"
+fi
