@@ -15,9 +15,7 @@ public class ArrayInput {
         }
         int local = 0;
         for(int j=0; j < arr.length; j++){
-            for(int m = j+1; m<arr.length-1; m++){
-                local =+ arr[j] + arr[m];
-            }
+            local += arr[j];
         }
         System.out.print("Output: "+ local);
         input.close();
