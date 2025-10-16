@@ -10,7 +10,10 @@ public class h1 {
 
         // creating array
         int[] simple = new int[narray];
-        System.out.println(simple);
+        while (narray > 0) {
+            simple[0]
+        }
+        
 
         input.close();
 
