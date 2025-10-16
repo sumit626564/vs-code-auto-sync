@@ -1,14 +1,15 @@
 package JavaCore.CodeChef;
 
-class ScoreConsistent{
-    public int ScorePrediction(int currA, int currB, int laterC, int laterD){
-        if(laterC > currA &&  laterD >= currB){
-            return "Po"
-        }
-    }
-}
+import java.util.Scanner;
+
+
 public class ProOne {
     public static void main(String[] args) {
-        
+        Scanner input = new Scanner(System.in);
+        int testcase = input.nextInt();
+        while(testcase < 1){
+            int
+        }
+        input.close();
     }
 }
