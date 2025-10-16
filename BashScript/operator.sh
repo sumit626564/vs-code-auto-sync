@@ -39,9 +39,13 @@ fi
 #   -z  (String is Empty)
 #   -n  (String is not empty)
 
-name="sumit singh"
-if[-n "$name"];
+name="sumit_singh"
+if [ -n "$name" ]; then
     echo "Name is set to $name"
 else
     echo "Name is Empty"
 fi
+
+# File Test Operators
+# Symbole:- [ $var fileTestOper file.txt ]
+#        
