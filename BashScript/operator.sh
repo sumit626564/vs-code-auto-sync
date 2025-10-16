@@ -33,3 +33,15 @@ fi
 ############################################
 # String Operator
 ####################################
+#Symbol:- ["$var" = "$var"]
+#   =   (equal)
+#   !=  (Not Equal)
+#   -z  (String is Empty)
+#   -n  (String is not empty)
+
+name="sumit singh"
+if[-n "$name"];
+    echo "Name is set to $name"
+else
+    echo "Name is Empty"
+fi
