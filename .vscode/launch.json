@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sorted",
+            "request": "launch",
+            "mainClass": "JavaCore.Recursion.Sorted",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "SumPrimeNumber",
             "request": "launch",
             "mainClass": "JavaCore.Recursion.SumPrimeNumber",
