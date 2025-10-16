@@ -47,5 +47,11 @@ else
 fi
 
 # File Test Operators
-# Symbole:- [ $var fileTestOper file.txt ]
-#        
+#  Operator     Description                             [ -e file.txt ]
+# -e            (File exists)                           [ -f file.txt ] 
+# -f             (File exists and is a regular file)    [ -d /home/sumit ]
+# -d             (Directory exists)
+# -r             (File is readiable)
+# -w              (File is writeable)
+# -x              (File is executable)
+# -a              (File size > 0)
