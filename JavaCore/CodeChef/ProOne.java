@@ -25,14 +25,18 @@ class FootBallMatch{
 public class ProOne {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int currA = input.nextInt();
-        int currB = input.nextInt();
-        int laterC = input.nextInt();
-        int laterD = input.nextInt();
+        System.out.println("Enter number of test cases: ");
+        int testcase = input.nextInt();  // dynamic number of test cases
+        for(int i = 1; i <= testcase; i++){
+            int currA = input.nextInt();
+            int currB = input.nextInt();
+            int laterC = input.nextInt();
+            int laterD = input.nextInt();
 
-        // Create Object and call fucntion
-        FootBallMatch match = new FootBallMatch(currA, currB, laterC, laterD);
-        System.out.println(match.CheckPossible());
+            // Create object and call function
+            FootBallMatch match = new FootBallMatch(currA, currB, laterC, laterD);
+            System.out.println(match.CheckPossible());
+        }
         input.close();
     }
 }
