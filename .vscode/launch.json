@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HackerArray",
+            "request": "launch",
+            "mainClass": "JavaCore.HackerEarth.HackerArray",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "h1",
             "request": "launch",
             "mainClass": "JavaCore.HackerEarth.h1",

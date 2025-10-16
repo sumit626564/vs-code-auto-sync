@@ -1,8 +1,8 @@
-package JavaCore.HackerEarth;
+package JavaCore.Array;
 
 import java.util.Scanner;
 
-public class h1 {
+public class HackerArray {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -10,9 +10,10 @@ public class h1 {
 
         // creating array
         int[] simple = new int[narray];
-        while (narray > 0) {
-            simple[0]
+        while (narray > 1) {
+            simple[narray] = input.nextInt();
         }
+        System.out.println("Phy: "+ simple);
         
 
         input.close();
