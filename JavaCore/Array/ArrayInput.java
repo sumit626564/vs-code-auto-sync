@@ -6,20 +6,15 @@ public class ArrayInput {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int narray = input.nextInt();
 
-        // creating array
-        int[] simple = new int[narray];
-        for(int i = 0; i<narray; i++){
-            simple[i] = input.nextInt();
-            i++;
+        System.out.println("Enter number of elements: ");
+        int NumberArray = input.nextInt();
+        int[] arr = new int[NumberArray];
+        for(int i = 0; i < NumberArray; i++){
+            arr[i] = input.nextInt();
         }
-        System.out.println("Phy: ");
-        for(int elment : simple){
-            System.out.println(elment + " ");
-        }
-
+        // Decide matrix size (nearest square)
+        
         input.close();
-
     }
 }
