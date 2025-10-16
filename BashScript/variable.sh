@@ -5,4 +5,9 @@
 # We can read the user input using the read comman
 name="sumit"
 age=23
-echo $name $age
+echo $name $
+
+# user input
+
+read -p "Enter your name: " name
+echo "Hello $name"
