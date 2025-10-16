@@ -1,8 +1,10 @@
 package JavaCore.CodeChef;
 
 class ScoreConsistent{
-    public int currentScore(int a, int b){
-        
+    public int ScorePrediction(int currA, int currB, int laterC, int laterD){
+        if(laterC > currA &&  laterD >= currB){
+            return "Po"
+        }
     }
 }
 public class ProOne {
