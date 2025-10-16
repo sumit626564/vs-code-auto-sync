@@ -6,18 +6,20 @@ public class ArrayInput {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
-        System.out.println("Enter number of elements: ");
-        int NumberArray = input.nextInt();
-        int[] arr = new int[NumberArray];
-        for(int i = 0; i < NumberArray; i++){
-            arr[i] = input.nextInt();
+        int sizearr = input.nextInt();
+        int[] storearr = new int[sizearr];
+        for(int i = 0; i<sizearr; i++){
+            storearr[i] = input.nextInt();
         }
-        int local = 0;
-        for(int j=0; j < arr.length; j++){
-            local += arr[j];
+        int pair = 0;
+        for(int j = 0; j<sizearr; j++){
+            for(int m = 0; m<sizearr; m++){
+                if(j != m  && storearr[j] - storearr[m] == m - j){
+                    pair++;
+                }
+            }
         }
-        System.out.print("Output: "+ local);
+        System.out.println(pair);
         input.close();
     }
 }
