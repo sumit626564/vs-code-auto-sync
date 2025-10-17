@@ -62,3 +62,17 @@ if [ -x $file ]; then
 else
     echo "$file is not executable"
 fi
+
+file="inpt.sh"
+if [ -e $file ]; then 
+    echo "$file is exits"
+else
+    echo "$file doesn't exists"
+fi
+
+################################################
+# Logical Operators
+#################################
+#  &&        AND            [ $a -gt 5 ] && [ $b -lt 10 ]
+# `                             `
+# !          NOT            [ ! -f file.txt ]
