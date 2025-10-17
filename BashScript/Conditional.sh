@@ -32,6 +32,12 @@ read age
 echo "Enter Country name"
 read country
 
-if (( "first-expression" == "second-expression" )); then
-    command ...
-fi 
+if [ $age -ge 18 ]; then
+    if [ "$country" == "India" ]; then
+        echo "Adult from $country"
+    else
+        echo "Adult from another country"
+    fi
+else
+    echo "Minor"
+fi
