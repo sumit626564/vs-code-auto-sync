@@ -76,3 +76,20 @@ fi
 #  &&        AND            [ $a -gt 5 ] && [ $b -lt 10 ]
 # `                             `
 # !          NOT            [ ! -f file.txt ]
+
+a=8
+b=3
+a=8
+b=3
+if [ $a -gt 5 ] && [ $b -lt 10 ]; then
+    echo "Both conditions are true"
+fi
+
+###################################################
+#    Assignment Operators
+##################################################
+# =           Assign                a=5
+# +=         Add and assign          a=$((a + 3))
+#
+#
+#
