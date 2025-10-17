@@ -13,8 +13,9 @@ fi
 
 ##### String Comprasion
 
-echo "Enter Your Name: "
-read name
+#echo "Enter Your Name: "
+#read name
+name="Sumit"
 if [ "$name" == "Sumit" ]; then
     echo "Welcome Sumit!"
 elif [ "$name" == "Raj"]; then
@@ -22,3 +23,15 @@ elif [ "$name" == "Raj"]; then
 else
     echo "Unknown user"
 fi
+
+
+## Question 2
+
+echo "Enter Your Age: "
+read age
+echo "Enter Country name"
+read country
+
+if (( "first-expression" == "second-expression" )); then
+    command ...
+fi 
