@@ -41,3 +41,13 @@ if [ $age -ge 18 ]; then
 else
     echo "Minor"
 fi
+
+echo "Enter stu: "
+read stu
+echo "Enter sto: "
+read sto
+if (( $stu > $sto )); then
+    echo "$stu  is greater"
+else
+    echo "$stu is not greater $sto"
+fi
