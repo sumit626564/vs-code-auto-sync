@@ -88,8 +88,29 @@ fi
 ###################################################
 #    Assignment Operators
 ##################################################
-# =           Assign                a=5
+# =           Assign                 a=5
 # +=         Add and assign          a=$((a + 3))
+# -=	     Subtract and assign	 a=$((a - 1))
+# *=	     Multiply and assign	a=$((a * 2))
+# /=	     Divide and assign	    a=$((a / 2))
+
+a=10
+((a += 5))
+echo "Updated value: $a"
+
+############################################
+
+#  | Operator | Description | Example       |       |      |
+#  | -------- | ----------- | ------------- | ----- | ---- |
+#  | `&`      | Bitwise AND | `$((a & b))`  |       |      |
+#  | `        | `           | Bitwise OR    | `$((a | b))` |
+#  | `^`      | Bitwise XOR | `$((a ^ b))`  |       |      |
+#  | `~`      | Bitwise NOT | `$((~a))`     |       |      |
+#  | `<<`     | Left shift  | `$((a << 1))` |       |      |
+#  | `>>`     | Right shift | `$((a >> 1))` |       |      |
 #
-#
-#
+
+a=5
+b=3
+echo "a & b = $((a & b))"
+echo "a | b = $((a | b))"
