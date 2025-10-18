@@ -19,19 +19,16 @@ class Monopoly{
     }
 
     public void ProfitCalculation(int compnayA, int compnayB, int companyC, int companyD){
-        int compnayA = profitsQ + profitsR + profitsS;
-        int companyB = profitsP + profitsR + profitsS;
-        int companyC = profitsP + profitsQ + profitsS;
-        int companyD = profitsP + profitsQ + profitsR;
+        compnayA = profitsQ + profitsR + profitsS;
+        companyB = profitsP + profitsR + profitsS;
+        companyC = profitsP + profitsQ + profitsS;
+        companyD = profitsP + profitsQ + profitsR;
     }
     public String DataReleased(){
-        if(compnayA > compnayB && compnayA > companyC && compnayA && companyD){
+        if (profitsP > companyA || profitsQ > companyB || profitsR > companyC || profitsS > companyD) {
             return "Yes";
-        }else if(compnayB > compnayA && compnayB > companyC && compnayB > companyD){
-            return
-        }
-        else{
-            return "No"
+        } else {
+            return "No";
         }
     }
 }
