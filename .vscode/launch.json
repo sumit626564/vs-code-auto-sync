@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PraticeOne",
+            "request": "launch",
+            "mainClass": "JavaCore.PraticeSet.PraticeOne",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "ProOne",
             "request": "launch",
             "mainClass": "JavaCore.CodeChef.ProOne",

@@ -1,11 +1,10 @@
 package JavaCore.PraticeSet;
 
-import java.text.DecimalFormatSymbols;
 import java.util.Scanner;
 
 public class PraticeOne {
-    public String Declmination(int topicA, int topicB, int topicC, int topicX){
-        if(topicA == topicX || topicB == topicX || topicC == topicX){
+    public static String Declmination(int topicA, int topicB, int topicC, int topicX){
+        if(topicA.equals(topicX) || topicB == topicX || topicC == topicX){
             return "yes";
         }else{
             return "No";
