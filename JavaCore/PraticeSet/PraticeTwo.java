@@ -6,16 +6,28 @@ class Monopoly{
     private int profitsR;
     private int profitsS;
 
-    public void Profits(int companyA, int companyB, int companyC, int companyD){
-        this.profitsP = companyA;
-        this.profitsQ = companyB;
-        this.profitsR = companyC;
-        this.profitsS = companyD;
+    public void Profits(int profitsA, int profitsB, int profitsC, int profitsD){
+        this.profitsP = profitsA;
+        this.profitsQ = profitsB;
+        this.profitsR = profitsC;
+        this.profitsS = profitsD;
     }
 
     public void ProfitCalculation(){
         int compnayA = profitsQ + profitsR + profitsS;
-        int companyB = prof
+        int companyB = profitsP + profitsR + profitsS;
+        int companyC = profitsP + profitsQ + profitsS;
+        int companyD = profitsP + profitsQ + profitsR;
+    }
+    public String DataReleased(){
+        if(compnayA > compnayB && compnayA > companyC && compnayA && companyD){
+            return "Yes";
+        }else if(compnayB > compnayA && compnayB > companyC &7 compnayB > companyD){
+            return
+        }
+        else{
+            return "No"
+        }
     }
 }
 
