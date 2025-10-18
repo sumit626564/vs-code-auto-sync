@@ -22,7 +22,7 @@ class Monopoly{
     public String DataReleased(){
         if(compnayA > compnayB && compnayA > companyC && compnayA && companyD){
             return "Yes";
-        }else if(compnayB > compnayA && compnayB > companyC &7 compnayB > companyD){
+        }else if(compnayB > compnayA && compnayB > companyC && compnayB > companyD){
             return
         }
         else{
