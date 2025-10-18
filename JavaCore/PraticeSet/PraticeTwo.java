@@ -6,6 +6,11 @@ class Monopoly{
     private int profitsR;
     private int profitsS;
 
+    private int companyA;
+    private int companyB;
+    private int companyC;
+    private int companyD;
+
     public void Profits(int profitsA, int profitsB, int profitsC, int profitsD){
         this.profitsP = profitsA;
         this.profitsQ = profitsB;
@@ -13,7 +18,7 @@ class Monopoly{
         this.profitsS = profitsD;
     }
 
-    public void ProfitCalculation(){
+    public void ProfitCalculation(int compnayA, int compnayB, int companyC, int companyD){
         int compnayA = profitsQ + profitsR + profitsS;
         int companyB = profitsP + profitsR + profitsS;
         int companyC = profitsP + profitsQ + profitsS;
