@@ -1,15 +1,15 @@
 package JavaCore.PraticeSet;
 
 class Monopoly{
-    private int profitsP;
-    private int profitsQ;
-    private int profitsR;
-    private int profitsS;
+    private int profitsP, companyA;
+    private int profitsQ, companyB;
+    private int profitsR, companyC;
+    private int profitsS, companyD;
 
-    private int companyA;
-    private int companyB;
-    private int companyC;
-    private int companyD;
+   // private int companyA;
+   // private int companyB;
+   // private int companyC;
+   // private int companyD;
 
     public void Profits(int profitsA, int profitsB, int profitsC, int profitsD){
         this.profitsP = profitsA;
