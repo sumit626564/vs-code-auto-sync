@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PraticeOne {
     public static String Declmination(int topicA, int topicB, int topicC, int topicX){
-        if(topicA.equals(topicX) || topicB == topicX || topicC == topicX){
+        if(topicA == topicX || topicB == topicX || topicC == topicX){
             return "yes";
         }else{
             return "No";
@@ -16,7 +16,7 @@ public class PraticeOne {
         int topicB = input.nextInt();
         int topicC = input.nextInt();
         int topicX = input.nextInt();
-        System.out.println(PraticeOne.Declmination(topicA, topicB, topicC, topicX));
+        System.out.println(Declmination(topicA, topicB, topicC, topicX));
         input.close();
     }
 }
