@@ -1,5 +1,7 @@
 package JavaCore.PraticeSet;
 
+import java.util.Scanner;
+
 class Monopoly{
     private int profitsP, companyA;
     private int profitsQ, companyB;
@@ -18,8 +20,8 @@ class Monopoly{
         this.profitsS = profitsD;
     }
 
-    public void ProfitCalculation(int compnayA, int compnayB, int companyC, int companyD){
-        compnayA = profitsQ + profitsR + profitsS;
+    public void ProfitCalculation(){
+        companyA = profitsQ + profitsR + profitsS;
         companyB = profitsP + profitsR + profitsS;
         companyC = profitsP + profitsQ + profitsS;
         companyD = profitsP + profitsQ + profitsR;
@@ -35,6 +37,20 @@ class Monopoly{
 
 public class PraticeTwo {
     public static void main(String[] args){
-
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter of your A Company Profits: ");
+        int profitsA = input.nextInt();
+        System.out.print("Enter of your B Company Profits: ");
+        int profitsB = input.nextInt();
+        System.out.print("Enter of your C Company Profits: ");
+        int profitsC = input.nextInt();
+        System.out.print("Enter of your D Company Profits: ");
+        int profitsD = input.nextInt();
+        
+        Monopoly mn = new Monopoly();
+        mn.Profits(profitsA, profitsB, profitsC, profitsD);
+        mn.ProfitCalculation();
+        System.out.println(mn.DataReleased());
+        input.close();
     }
 }
