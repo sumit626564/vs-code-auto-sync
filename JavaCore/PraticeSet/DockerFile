@@ -1,0 +1,15 @@
+# Use Java 25 LTS base image
+FROM openjdk:latest
+# FROM openjdk:21-jdk-slim
+
+# Set working directory inside cotainer
+WORKING /app
+
+# Copy your java file into the container
+COPY PraticeTwo.java .
+
+# Compile the program
+RUN javac PraticeTwo.java
+
+# Run the compiled program
+CMD ["java","PraticeTwo"]
