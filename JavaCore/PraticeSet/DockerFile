@@ -3,7 +3,7 @@ FROM openjdk:latest
 # FROM openjdk:21-jdk-slim
 
 # Set working directory inside cotainer
-WORKING /app
+WORKDIR /app
 
 # Copy your java file into the container
 COPY PraticeTwo.java .
