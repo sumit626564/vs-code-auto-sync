@@ -1,4 +1,4 @@
-package JavaCore.PraticeSet;
+package JavaCore.PracticeSet;
 
 import java.util.Scanner;
 
@@ -35,7 +35,7 @@ class Monopoly{
     }
 }
 
-public class PraticeTwo {
+public class PracticeTwo {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.print("Enter of your A Company Profits: ");

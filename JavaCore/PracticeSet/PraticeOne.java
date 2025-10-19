@@ -1,4 +1,4 @@
-package JavaCore.PraticeSet;
+package JavaCore.PracticeSet;
 
 import java.util.Scanner;
 
