@@ -34,6 +34,18 @@ class ProblemTwo{
         return new int[][]{arrone, arrtwo};
         
     }
+    public int[] ReversAgain(int[] reagain){
+        int start = 0;
+        int end = reagain.length-1;
+        while (start<end) {
+            int temp = reagain[start];
+            reagain[start] = reagain[end];
+            reagain[end] = temp;
+            start++;
+            end--;
+        }
+        return new int[]{reagain};
+    }
 }
 
 public class Day1Leet {
