@@ -50,9 +50,11 @@ public class Day1Leet {
         int[] arrtwo = {5, 6, 7};
         
         ProblemTwo ptwo = new ProblemTwo();
-        int[][] reult = ptwo.Reverse(arrone, arrtwo);
-        System.out.println(Arrays.toString(reult[0]));
-        System.out.println(Arrays.toString(reult[1]));
+        int[][] rlt = ptwo.Reverse(arrone, arrtwo);
+        int[] revarrone = rlt[0];
+        int[] revarrtwo = rlt[1];
+        int[] = sumarr = new int[revarrone, revarrtwo];
+        //System.out.println(Arrays.toString(reult[0]));
 
     }
 }
