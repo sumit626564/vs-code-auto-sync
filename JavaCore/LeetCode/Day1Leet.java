@@ -14,6 +14,11 @@ class Solution{
 public class Day1Leet {
 
     public static void main(String[] args){
-        int[] nums = []
+        int[] nums = {2, 7, 11, 15};
+        int target = 9;
+        Solution sl = new Solution();
+        int[] result = sl.twoSum(nums, target);
+        System.out.println(result);
+
     }
 }
