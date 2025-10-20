@@ -44,7 +44,7 @@ class ProblemTwo{
             start++;
             end--;
         }
-        return new int[]{reagain};
+        return reagain;
     }
 }
 
