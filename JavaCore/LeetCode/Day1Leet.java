@@ -16,8 +16,10 @@ class ProblemOne{
 
 class ProblemTwo{
     public int[] Reverse(int[] reverse){
-        for(int i = reverse.length; i>0; i--){
-            return new int[]{i};
+        int n = reverse.length;
+        int[] result = new int[n];
+        for(int i=0; i<n; i++){
+            for
         }
     }
 }
