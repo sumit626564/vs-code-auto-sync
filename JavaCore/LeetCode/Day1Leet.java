@@ -34,17 +34,20 @@ class ProblemTwo{
         return new int[][]{arrone, arrtwo};
         
     }
-    public int[] ReversAgain(int[] reagain){
-        int start = 0;
-        int end = reagain.length-1;
-        while (start<end) {
-            int temp = reagain[start];
-            reagain[start] = reagain[end];
-            reagain[end] = temp;
-            start++;
-            end--;
-        }
-        return reagain;
+    public int[] ReversAgain(){
+        int[] RevArrOne = arrone;
+        int[] RevArrTwo = arrtwo;
+        
+        //int start = 0;
+        //int end = reagain.length-1;
+        //while (start<end) {
+        //    int temp = reagain[start];
+        //    reagain[start] = reagain[end];
+        //    reagain[end] = temp;
+        //    start++;
+        //    end--;
+        //}
+        //return reagain;
     }
 }
 
