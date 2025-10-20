@@ -53,6 +53,8 @@ class ProblemTwo{
             int temp = arrone[start];
             arrone[start] = arrone[end];
             arrone[end] = temp;
+            start++;
+            end--;
         }
         return arrone;
     }
@@ -68,6 +70,11 @@ public class Day1Leet {
         System.out.println(Arrays.toString(result));
         //=============================================
 
-        int[] arrone = {}
+        int[] arrone = {2, 4, 3};
+        int[]  arrtwo = {5, 6, 7};
+        ProblemTwo  pltwo = new ProblemTwo(arrone, arrtwo);
+        pltwo.Reverse();
+        int[] newresult = pltwo.AddReverse();
+        System.out.println(Arrays.toString(newresult));
     }
 }
