@@ -17,9 +17,13 @@ class ProblemOne{
 class ProblemTwo{
     int[] arrone;
     int[] arrtwo;
+
     public ProblemTwo(int[] arrone, int[] arrtwo){
-        
+        this.arrone = arrone;
+        this.arrtwo = arrtwo;
     }
+
+    public int[][] 
 }
 
 public class Day1Leet {
