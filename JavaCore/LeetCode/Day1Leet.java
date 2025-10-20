@@ -19,7 +19,20 @@ class ProblemTwo{
 
         int n = arrone.length; // asssume both are same length
         int start = 0;
-        int end = n - 1
+        int end = n - 1;
+        while(start < end){
+            int tempone = arrone[start];
+            arrone[start] = arrone[end];
+            arrone[end] = tempone;
+
+            int temptwo = arrtwo[start];
+            arrtwo[start] = arrtwo[end];
+            arrtwo[end] = temptwo;
+            start++;
+            end--;
+        }
+        return new int[]{arrone, arrtwo};
+        
     }
 }
 
