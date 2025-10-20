@@ -23,7 +23,30 @@ class ProblemTwo{
         this.arrtwo = arrtwo;
     }
 
-    public int[][] 
+    //=================================================
+    public int[][] Reverse(){
+        int assume = arrone.length;
+        int start = 0;
+        int end = assume-1;
+        while(start<end){
+            int tempone = arrone[start];
+            arrone[start] = arrone[end];
+            arrone[end] = tempone;
+            //===========================
+            int temptwo = arrtwo[start];
+            arrtwo[start] = arrtwo[end];
+            arrtwo[end] = temptwo;
+            start++;
+            end--;
+        }
+        return new int[][]{arrone, arrtwo};
+    }
+    //==========================================
+    public int[]  AddReverse(){
+        int assume = arrone.length;
+        int start = 0;
+        int end = n -1;
+    }
 }
 
 public class Day1Leet {
