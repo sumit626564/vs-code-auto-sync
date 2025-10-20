@@ -25,9 +25,8 @@ class ProblemTwo{
 
     //=================================================
     public int[][] Reverse(){
-        int assume = arrone.length;
         int start = 0;
-        int end = assume-1;
+        int end = arrone.length-1;
         while(start<end){
             int tempone = arrone[start];
             arrone[start] = arrone[end];
@@ -43,13 +42,19 @@ class ProblemTwo{
     }
     //==========================================
     public int[]  AddReverse(){
-        int[][] sumArr = super.Reverse(arrone, arrtwo);
-        int assume = arrone.length;
-        int start = 0;
-        int end = assume-1;
-        while (start<end) {
-            int temp = 
+        for(int i=0; i<arrone.length; i++){
+            arrone[i] += arrtwo[i];
         }
+
+        // Reversed arrone (which now containes the sum)
+        int start = 0;
+        int end = arrone.length-1;
+        while (start<end) {
+            int temp = arrone[start];
+            arrone[start] = arrone[end];
+            arrone[end] = temp;
+        }
+        return arrone;
     }
 }
 
@@ -62,5 +67,7 @@ public class Day1Leet {
         int[] result = sl.twoSum(nums, target);
         System.out.println(Arrays.toString(result));
         //=============================================
+
+        int[] arrone = {}
     }
 }
