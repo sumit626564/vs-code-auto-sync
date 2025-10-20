@@ -15,7 +15,7 @@ class ProblemOne{
 }
 
 class ProblemTwo{
-    public int[] Reverse(int[] arrone, int[] arrtwo){
+    public int[][] Reverse(int[] arrone, int[] arrtwo){
 
         int n = arrone.length; // asssume both are same length
         int start = 0;
@@ -31,7 +31,7 @@ class ProblemTwo{
             start++;
             end--;
         }
-        return new int[]{arrone, arrtwo};
+        return new int[][]{arrone, arrtwo};
         
     }
 }
@@ -46,7 +46,12 @@ public class Day1Leet {
         System.out.println(Arrays.toString(result));
         //=============================================
 
-        int[] rverse = {2, 4, 3};
+        int[] arrone = {2, 4, 3};
+        int[] arrtwo = {5, 6, 7};
+        
+        ProblemTwo ptwo = new ProblemTwo();
+        int[][] reult = ptwo.Reverse(arrone, arrtwo);
+        System.out.println(Arrays.toString(reult));
 
     }
 }
