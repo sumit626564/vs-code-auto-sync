@@ -43,7 +43,7 @@ class ProblemTwo{
     }
     //==========================================
     public int[]  AddReverse(){
-        int[] sumArr = new int[]
+        int[][] sumArr = super.Reverse(arrone, arrtwo);
         int assume = arrone.length;
         int start = 0;
         int end = assume-1;
