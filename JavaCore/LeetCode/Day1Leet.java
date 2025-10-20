@@ -70,8 +70,9 @@ public class Day1Leet {
             sumarr[i] =revarrone[i] + revarrtwo[i];
         }
         System.out.println(Arrays.toString(sumarr));
+        //===============================================
 
-        //System.out.println(Arrays.toString(reult[0]));
-
+        int[] reg = ptwo.ReversAgain(sumarr);
+        System.out.println(Arrays.toString(reg));
     }
 }
