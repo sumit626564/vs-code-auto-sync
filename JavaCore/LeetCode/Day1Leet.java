@@ -15,8 +15,11 @@ class ProblemOne{
 }
 
 class ProblemTwo{
-    public int[] Reverse(int[] reverse){
-        
+    public int[] Reverse(int[] arrone, int[] arrtwo){
+
+        int n = arrone.length; // asssume both are same length
+        int start = 0;
+        int end = n - 1
     }
 }
 
