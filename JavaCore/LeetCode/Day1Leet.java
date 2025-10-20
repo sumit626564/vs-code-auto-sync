@@ -16,7 +16,7 @@ class ProblemOne{
 
 class ProblemTwo{
     public int[] AddTwoNumbers(int[] NodeOne, int[] NodeTwo){
-        
+        for(int i)
     }
 }
 
