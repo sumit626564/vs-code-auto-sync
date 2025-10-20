@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DublicateRemove",
+            "request": "launch",
+            "mainClass": "JavaCore.Array.DublicateRemove",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "PraticeTwo",
             "request": "launch",
             "mainClass": "JavaCore.PraticeSet.PraticeTwo",

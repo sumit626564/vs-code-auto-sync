@@ -15,6 +15,10 @@ public class DublicateRemove {
         j++;
 
         // print unique elements
-        
+        System.out.println("Unique element: ");
+        for(int i=0; i<j; i++){
+            System.out.print(arrempty[i] + ",");
+        }
+        System.out.println();
     }
 }
