@@ -15,9 +15,9 @@ class ProblemOne{
 }
 
 class ProblemTwo{
-    public int[] AddTwoNumbers(int[] NodeOne, int[] NodeTwo){
-        for(int i=0; i<NodeOne.length-1; i++){
-            
+    public int[] Reverse(int[] reverse){
+        for(int i = reverse.length; i>0; i--){
+            return new int[]{i};
         }
     }
 }
@@ -30,5 +30,9 @@ public class Day1Leet {
         ProblemOne sl = new ProblemOne();
         int[] result = sl.twoSum(nums, target);
         System.out.println(Arrays.toString(result));
+        //=============================================
+
+        int[] rverse = {2, 4, 3};
+
     }
 }
