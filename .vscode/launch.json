@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Day1Leet",
+            "request": "launch",
+            "mainClass": "JavaCore.LeetCode.Day1Leet",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "DublicateRemove",
             "request": "launch",
             "mainClass": "JavaCore.Array.DublicateRemove",
