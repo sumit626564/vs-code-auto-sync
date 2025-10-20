@@ -14,14 +14,19 @@ class ProblemOne{
     }
 }
 
+class ProblemTwo{
+    public int[] AddTwoNumbers(int[] NodeOne, int[] NodeTwo){
+        
+    }
+}
+
 public class Day1Leet {
 
     public static void main(String[] args){
         int[] nums = {3,2,3};
         int target = 6;
-        Solution sl = new Solution();
+        ProblemOne sl = new ProblemOne();
         int[] result = sl.twoSum(nums, target);
         System.out.println(Arrays.toString(result));
-
     }
 }
