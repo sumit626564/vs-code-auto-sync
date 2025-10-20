@@ -51,7 +51,8 @@ public class Day1Leet {
         
         ProblemTwo ptwo = new ProblemTwo();
         int[][] reult = ptwo.Reverse(arrone, arrtwo);
-        System.out.println(Arrays.toString(reult));
+        System.out.println(Arrays.toString(reult[0]));
+        System.out.println(Arrays.toString(reult[1]));
 
     }
 }
