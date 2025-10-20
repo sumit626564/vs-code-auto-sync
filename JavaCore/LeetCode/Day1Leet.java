@@ -15,39 +15,10 @@ class ProblemOne{
 }
 
 class ProblemTwo{
-    public int[][] Reverse(int[] arrone, int[] arrtwo){
-
-        int n = arrone.length; // asssume both are same length
-        int start = 0;
-        int end = n - 1;
-        while(start < end){
-            int tempone = arrone[start];
-            arrone[start] = arrone[end];
-            arrone[end] = tempone;
-
-            int temptwo = arrtwo[start];
-            arrtwo[start] = arrtwo[end];
-            arrtwo[end] = temptwo;
-            start++;
-            end--;
-        }
-        return new int[][]{arrone, arrtwo};
+    int[] arrone;
+    int[] arrtwo;
+    public ProblemTwo(int[] arrone, int[] arrtwo){
         
-    }
-    public int[] ReversAgain(){
-        int[] RevArrOne = arrone;
-        int[] RevArrTwo = arrtwo;
-        
-        //int start = 0;
-        //int end = reagain.length-1;
-        //while (start<end) {
-        //    int temp = reagain[start];
-        //    reagain[start] = reagain[end];
-        //    reagain[end] = temp;
-        //    start++;
-        //    end--;
-        //}
-        //return reagain;
     }
 }
 
@@ -60,22 +31,5 @@ public class Day1Leet {
         int[] result = sl.twoSum(nums, target);
         System.out.println(Arrays.toString(result));
         //=============================================
-
-        int[] arrone = {2, 4, 3};
-        int[] arrtwo = {5, 6, 7};
-        
-        ProblemTwo ptwo = new ProblemTwo();
-        int[][] rlt = ptwo.Reverse(arrone, arrtwo);
-        int[] revarrone = rlt[0];
-        int[] revarrtwo = rlt[1];
-        int[] sumarr = new int[revarrone.length];
-        for(int i = 0; i<revarrone.length; i++){
-            sumarr[i] =revarrone[i] + revarrtwo[i];
-        }
-        System.out.println(Arrays.toString(sumarr));
-        //===============================================
-
-        int[] reg = ptwo.ReversAgain(sumarr);
-        System.out.println(Arrays.toString(reg));
     }
 }
