@@ -43,9 +43,13 @@ class ProblemTwo{
     }
     //==========================================
     public int[]  AddReverse(){
+        int[] sumArr = new int[]
         int assume = arrone.length;
         int start = 0;
-        int end = n -1;
+        int end = assume-1;
+        while (start<end) {
+            int temp = 
+        }
     }
 }
 
