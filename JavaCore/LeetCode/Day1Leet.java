@@ -53,7 +53,12 @@ public class Day1Leet {
         int[][] rlt = ptwo.Reverse(arrone, arrtwo);
         int[] revarrone = rlt[0];
         int[] revarrtwo = rlt[1];
-        int[] = sumarr = new int[revarrone, revarrtwo];
+        int[] sumarr = new int[revarrone.length];
+        for(int i = 0; i<revarrone.length; i++){
+            sumarr[i] =revarrone[i] + revarrtwo[i];
+        }
+        System.out.println(Arrays.toString(sumarr));
+
         //System.out.println(Arrays.toString(reult[0]));
 
     }
