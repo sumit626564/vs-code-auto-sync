@@ -26,7 +26,7 @@ public class UnionUserInput {
         }
 
         // Union of Set1 and Set2
-        HashSet<Integer> unionset = new HashSet<>();
+        HashSet<Integer> unionset = new HashSet<>(set1); // copy set1
         unionset.addAll(set2);  // add elements of set2
 
         System.out.println("Union of Set 1 and Set 2: " + unionset);
