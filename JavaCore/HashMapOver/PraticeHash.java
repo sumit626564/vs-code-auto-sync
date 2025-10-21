@@ -27,16 +27,19 @@ class HasSetSingleArray{
             new_arr.add(num);
         }
 
+        // Step 3: Iterate using Iterator
         System.out.println("\nIterating HashSet Elements: ");
-        Iterator<Integer> it =  new_arr.iterator();
+        Iterator<Integer> it =  new_arr.iterator();   // Decliaation of Iterator
         while (it.hasNext()) {
             System.out.println(it.next());
         }
 
+        // Step 4: Search using contains()
         if((!new_arr.contains(3)) || (!new_arr.contains(7))){
             System.out.println("\n True {Becuase either 3 or 7 is Missing}");
         }
 
+        // Step 5: Print the entire
         System.out.println("Hash Element: "+ new_arr);
     }
 }
