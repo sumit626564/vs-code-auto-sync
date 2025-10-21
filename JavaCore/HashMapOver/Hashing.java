@@ -7,6 +7,7 @@ import java.util.HashSet;
  *  Delete/ Remove - O(1)
  * 
  *  Note:- HashSet store only unique Element
+ *         store data of array in sorted
  *  Syntax:-
  *          HashSet<DataType> setname = new HashSet<>();
  */
@@ -18,8 +19,9 @@ public class Hashing {
 
         // Insert
         set.add(1);  
-        set.add(2);
         set.add(3);
+        set.add(2);
+        set.add(8);
         set.add(1);  // list(el)
 
         // Search - contains
@@ -32,6 +34,17 @@ public class Hashing {
         /*============================================================ */
         // Delete
         set.remove(1);
-        if(!set)
+        if(!set.contains(1)){
+            System.out.println("Does not contains 1 - we deleted");
+        }
+
+        /*=================================================================== */
+
+        // Size
+        System.out.println("size of set is :" + set.size());
+
+        /*===================================================================== */
+        // Print all element
+        System.out.println(set);
     }
 }
