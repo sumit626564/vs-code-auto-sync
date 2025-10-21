@@ -42,26 +42,8 @@ class HasSetSingleArray{
     }
 }
 
-class DoubleArray{
-    int[][] doublearray;
-
-    public DoubleArray(int[][] double_array){
-        this.doublearray = double_array;
-    }
-    public void TakingDouble(Scanner input){
-        for(int i=0; i<doublearray.length; i++){
-            doublearray[i][i] = input.nextInt();
-        }
-    }
-    /*=========================Hasing with Dual Array===================================== */
-    public void HashDoubleDecliration(){
-        
-        HashSet<Integer> array_double = new HashSet<>();
-
-        for(int[] num : doublearray){
-            array_double.add(num);
-        }
-    }
+class SetCombine{
+    
 }
 public class PraticeHash {
 
