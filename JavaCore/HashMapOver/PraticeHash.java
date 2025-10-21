@@ -25,7 +25,16 @@ class HasSetSingleArray{
         }
 
         System.out.println("\nIterating HashSet Elements: ");
-        Iterator
+        Iterator<Integer> it =  new_arr.iterator();
+        while (it.hasNext()) {
+            System.out.println(it.next());
+        }
+
+        if((!new_arr.contains(3)) || (!new_arr.contains(7))){
+            System.out.println("\n True {Becuase either 3 or 7 is Missing}");
+        }
+
+        System.out.println("HashElement");
     }
 }
 
