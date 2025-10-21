@@ -50,6 +50,11 @@ public class Hashing {
 
         // Iterator
         Iterator it = set.iterator();
-        // hash
+        // hashNext & next --> both are part of Iterator
+        /* hasNext store a bollean value true or false */
+        while (it.hasNext()) {
+            System.out.println(it.next());
+        }
+        
     }
 }
