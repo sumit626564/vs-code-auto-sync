@@ -1,10 +1,19 @@
 package JavaCore.HashMapOver;
 import java.util.HashSet;
+import java.util.Scanner;
 
 public class PraticeHash {
 
     public static void main(String[] args){
-        int[] arr = {2, 4, 6, 8, 9, 7, 5};
+
+        // User input Method 
+        Scanner input = new Scanner(System.in);
+
+        int[] size_arr = new int[3];        // array size decliration
+        
+        for(int i=0; i<size_arr.length; i++){
+            size_arr[i] = input.nextInt();
+        }
         HashSet<Integer> new_arr = new HashSet<>();
 
         for(int num : arr){
@@ -17,5 +26,6 @@ public class PraticeHash {
         }
         System.out.println("Hash Element: "+  new_arr);
 
+        input.close();
     }
 }
