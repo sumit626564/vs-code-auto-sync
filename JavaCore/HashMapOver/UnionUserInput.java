@@ -8,7 +8,7 @@ public class UnionUserInput {
         Scanner input = new Scanner(System.in);
         
         // First Set
-        System.out.println("Enter element of Set 1 separated by sapce: ");
+        System.out.println("Enter number of element for Set 1: ");
         int n1 = input.nextInt();
         HashSet<Integer> set1 = new HashSet<>();
         System.out.println("Enter elements for set 1:");
@@ -17,6 +17,21 @@ public class UnionUserInput {
         }
 
         // Second Set
-        System.out.println("Enter of elments for  Set 2: ");
+        System.out.println("Enter of elments for  Set 2:");
+        int n2 =  input.nextInt();
+        HashSet<Integer> set2 = new HashSet<>();
+        System.out.println("Enter elements for Set 2:");
+        for(int i = 0; i<n2; i++){
+            set2.add(input.nextInt());
+        }
+
+        // Union of Set1 and Set2
+        HashSet<Integer> unionset = new HashSet<>();
+        unionset.addAll(set2);  // add elements of set2
+
+        System.out.println("Union of Set 1 and Set 2: " + unionset);
+
+        input.close();
+
     }
 }

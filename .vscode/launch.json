@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UnionUserInput",
+            "request": "launch",
+            "mainClass": "JavaCore.HashMapOver.UnionUserInput",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "PraticeHash",
             "request": "launch",
             "mainClass": "JavaCore.HashMapOver.PraticeHash",
