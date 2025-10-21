@@ -50,7 +50,16 @@ class DoubleArray{
     }
     public void TakingDouble(Scanner input){
         for(int i=0; i<doublearray.length; i++){
-            doublearray[i] = input.nextInt();
+            doublearray[i][i] = input.nextInt();
+        }
+    }
+    /*=========================Hasing with Dual Array===================================== */
+    public void HashDoubleDecliration(){
+        
+        HashSet<Integer> array_double = new HashSet<>();
+
+        for(int[] num : doublearray){
+            array_double.add([doublearray]);
         }
     }
 }
