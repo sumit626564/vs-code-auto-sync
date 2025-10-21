@@ -42,7 +42,9 @@ class HasSetSingleArray{
     }
 }
 
-
+class DoubleArray{
+    int[][]
+}
 public class PraticeHash {
 
     public static void main(String[] args){
