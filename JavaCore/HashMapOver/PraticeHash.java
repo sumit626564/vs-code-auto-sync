@@ -27,15 +27,18 @@ public class PraticeHash {
         
         // Step 3: Iterate using Iterator
         System.out.println("\nIterating HashSet Elements:");
-        Iterator it = new_arr.iterator();
+        Iterator<Integer> it = new_arr.iterator();
+        // {my Method} =  Iterator it = new_arr.iterator();   Note:- this method is also work well but above is neat and celan
         while (it.hasNext()) {
             System.out.println(it.next());
         }
 
-        // Search- Contains;
+        // Step 4:  Search using contains()
         if((!new_arr.contains(3)) || (!new_arr.contains(7))){
             System.out.println("True");
         }
+
+        // Step 5: Print the entire HasSet
         System.out.println("Hash Element: "+  new_arr);
 
         input.close();
