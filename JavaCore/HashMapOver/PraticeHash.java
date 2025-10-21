@@ -43,7 +43,16 @@ class HasSetSingleArray{
 }
 
 class DoubleArray{
-    int[][]
+    int[][] doublearray;
+
+    public DoubleArray(int[][] double_array){
+        this.doublearray = double_array;
+    }
+    public void TakingDouble(Scanner input){
+        for(int i=0; i<doublearray.length; i++){
+            doublearray[i] = input.nextInt();
+        }
+    }
 }
 public class PraticeHash {
 
