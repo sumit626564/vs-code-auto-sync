@@ -12,8 +12,8 @@ public class PraticeHash {
         }
 
         // Search- Contains;
-        if(!new_arr.contains(3)){
-            System.out.println("This array not Contains 3");
+        if((!new_arr.contains(3)) || (!new_arr.contains(7))){
+            System.out.println("True");
         }
         System.out.println("Hash Element: "+  new_arr);
 
