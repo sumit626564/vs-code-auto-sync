@@ -59,7 +59,7 @@ class DoubleArray{
         HashSet<Integer> array_double = new HashSet<>();
 
         for(int[] num : doublearray){
-            array_double.add([doublearray]);
+            array_double.add(num);
         }
     }
 }
