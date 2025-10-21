@@ -35,7 +35,7 @@ public class PraticeHash {
 
         // Step 4:  Search using contains()
         if((!new_arr.contains(3)) || (!new_arr.contains(7))){
-            System.out.println("True");
+            System.out.println("\n True (because either 3 or 7  is mssing)");
         }
 
         // Step 5: Print the entire HasSet
