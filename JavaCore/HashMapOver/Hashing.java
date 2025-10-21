@@ -1,5 +1,6 @@
 package JavaCore.HashMapOver;
 import java.util.HashSet;
+import java.util.Iterator;
 
 /* HashSet in Java
  *  Insert/Add - O(1)
@@ -7,7 +8,7 @@ import java.util.HashSet;
  *  Delete/ Remove - O(1)
  * 
  *  Note:- HashSet store only unique Element
- *         store data of array in sorted
+ *       
  *  Syntax:-
  *          HashSet<DataType> setname = new HashSet<>();
  */
@@ -46,5 +47,9 @@ public class Hashing {
         /*===================================================================== */
         // Print all element
         System.out.println(set);
+
+        // Iterator
+        Iterator it = set.iterator();
+        // hash
     }
 }
