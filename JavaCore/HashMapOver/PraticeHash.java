@@ -9,12 +9,10 @@ class HasSetSingleArray{
     public HasSetSingleArray(int[] single_arr){
         this.single_arr = single_arr;
     }
-    public void TakingInput(){
-        Scanner input = new Scanner(System.in);
+    public void TakingInput(Scanner input){
         for(int i=0; i<single_arr.length; i++){
             single_arr[i] = input.nextInt();
         }
-        input.close();
     }
     /*===================================================================== */
 
@@ -55,7 +53,7 @@ public class PraticeHash {
         int[] size_arr = new int[3];        // array size decliration
         System.out.println("Enter 3 Number: ");
         HasSetSingleArray hcl = new HasSetSingleArray(size_arr);
-        hcl.TakingInput();
+        hcl.TakingInput(input);
         hcl.HashDecliration();
         
         input.close();
