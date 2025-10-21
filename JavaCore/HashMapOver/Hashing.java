@@ -6,6 +6,7 @@ import java.util.HashSet;
  *  Search/ Contains - O(1)
  *  Delete/ Remove - O(1)
  * 
+ *  Note:- HashSet store only unique Element
  *  Syntax:-
  *          HashSet<DataType> setname = new HashSet<>();
  */
@@ -19,7 +20,18 @@ public class Hashing {
         set.add(1);  
         set.add(2);
         set.add(3);
-        set.add(1); // list(el)
+        set.add(1);  // list(el)
 
+        // Search - contains
+        if(set.contains(1)){
+            System.out.println("Set Contains: 1");
+        }
+        if(!set.contains(6)){
+            System.out.println("Does not Contains ");
+        }
+        /*============================================================ */
+        // Delete
+        set.remove(1);
+        if(!set)
     }
 }
