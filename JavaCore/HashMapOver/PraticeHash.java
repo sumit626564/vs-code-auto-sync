@@ -3,7 +3,31 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Scanner;
 
-public clas
+class HasSetSingleArray{
+    int[] single_arr;
+
+    public HasSetSingleArray(int[] single_arr){
+        this.single_arr = single_arr;
+    }
+    public void TakingInput(){
+        Scanner input = new Scanner(System.in);
+        for(int i=0; i<single_arr.length; i++){
+            single_arr[i] = input.nextInt();
+        }
+        input.close();
+    }
+    public void HashDecliration() {
+        
+        HashSet<Integer> new_arr = new HashSet<>();
+
+        for(int num : single_arr){
+            new_arr.add(num);
+        }
+
+        System.out.println("\nIterating HashSet Elements: ");
+        Iterator
+    }
+}
 
 
 public class PraticeHash {
@@ -19,7 +43,7 @@ public class PraticeHash {
             size_arr[i] = input.nextInt();
         }
 /*========================================================================================= 
- * ########## HasSet ############################
+ * ########## HashSet ############################
 */
         HashSet<Integer> new_arr = new HashSet<>();
 
