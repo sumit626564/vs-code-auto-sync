@@ -3,6 +3,9 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Scanner;
 
+public clas
+
+
 public class PraticeHash {
 
     public static void main(String[] args){
