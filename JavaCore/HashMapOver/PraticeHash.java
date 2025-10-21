@@ -1,5 +1,6 @@
 package JavaCore.HashMapOver;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class PraticeHash {
@@ -10,14 +11,23 @@ public class PraticeHash {
         Scanner input = new Scanner(System.in);
 
         int[] size_arr = new int[3];        // array size decliration
-        
+
         for(int i=0; i<size_arr.length; i++){
             size_arr[i] = input.nextInt();
         }
+/*========================================================================================= 
+ * ########## HasSet ############################
+*/
         HashSet<Integer> new_arr = new HashSet<>();
 
-        for(int num : arr){
+        // Iterate using for of loop
+        for(int num : size_arr){
             new_arr.add(num);
+        }
+        
+        Iterator it = new_arr.iterator();
+        while (new_arr.hasNe) {
+            
         }
 
         // Search- Contains;
