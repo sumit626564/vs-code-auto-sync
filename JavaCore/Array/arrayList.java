@@ -7,6 +7,7 @@ public class arrayList{
         ArrayList<String> list =  new ArrayList<>();
 
         // add elements
+        list.add("Water Mellon");
         list.add("apple");
         list.add("Banana");
         list.add("Mango");
@@ -28,7 +29,9 @@ public class arrayList{
 
         // Search - Element or Value
         if(list.contains("apple")){
-            System.out.println("One Match Found: "+ list.get("2"));
+            System.out.println("One Match Found: "+ list.get(2));
+        }else{
+            System.out.println("Not Found..!");
         }
         // Loop through ArrayList
         System.out.println("All elements: ");
