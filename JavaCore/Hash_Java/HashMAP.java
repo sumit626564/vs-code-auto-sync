@@ -32,6 +32,13 @@ import java.util.HashMap;
     | `values()`                    | Returns all values                             |
     | `entrySet()`                  | Returns all key-value pairs as Set<Entry<K,V>> |
 
+
+    Note:- Combine two dictionary:-
+            Summary 
+                    putAll() → simplest way to combine two HashMaps 
+                    merge() → handles key conflicts intelligently 
+                    Use a new HashMap if you don’t want to modify the originals.
+
  */
 
 public class HashMAP {
