@@ -13,9 +13,16 @@ import java.util.HashMap;
  * ================How HashMap Works (Internally)
  *  Java uses a "hashtable" to store data.
  *  Each key is hased (using hashCode())--> determines where to store the value.
+ *  If two keys have the same hash (collision) --> it stores them in linked list or tree internally
+ * 
+ * =====Note:-====
+ *                 This is why lookup, insert, and delete are super fast in HashMap.
  */
+
 public class HashMAP {
     public static void main(String[] args) {
         
+        // create HashMap
+        HashMap<String, Integer> hashmap = new HashMap<>()
     }    
 }
