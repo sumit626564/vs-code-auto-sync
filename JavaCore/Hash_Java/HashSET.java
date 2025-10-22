@@ -13,7 +13,7 @@ import java.util.Iterator;
  *          HashSet<DataType> setname = new HashSet<>();
  */
 
-public class Hashing {
+public class HashSET {
     public static void main(String[] args){
         // Creating
         HashSet<Integer> set = new HashSet<>();
