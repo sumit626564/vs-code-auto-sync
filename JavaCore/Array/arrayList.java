@@ -26,11 +26,14 @@ public class arrayList{
         // Size of list
         System.out.println("Size: " + list.size());
 
+        // Search - Element or Value
+        if(list.contains("apple")){
+            System.out.println("One Match Found: "+ list.get("2"));
+        }
         // Loop through ArrayList
         System.out.println("All elements: ");
         for(String fruit: list){
-            System.out.println(fruit);
+            System.out.println(fruit); 
         }
-        System.out.println();
     }
 }
