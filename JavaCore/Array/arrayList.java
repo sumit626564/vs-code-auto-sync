@@ -29,9 +29,8 @@ public class arrayList{
         // Loop through ArrayList
         System.out.println("All elements: ");
         for(String fruit: list){
-            System.out.print(fruit);
+            System.out.println(fruit);
         }
-
         System.out.println();
     }
 }
