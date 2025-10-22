@@ -31,8 +31,18 @@ public class HashMAP {
         hashmap.put("Mango", 120);
         hashmap.put("Orango", 70);
 
-        //
+        // print all dictionary
         System.out.println("Initial HashMap: " + hashmap);
 
+        // Search in HashMap
+        if(hashmap.containsKey("Mango")){
+            System.out.println("Price fo Mango: "+hashmap.get("Mango"));
+        }
+
+        // Update a value:
+        hashmap.put("Banana", 700);  // replace old value
+        System.out.println("Updated Banana Price: " + hashmap.get("Banana"));
+
+        System.out.println(hashmap);
     }    
 }
