@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayDataTypes",
+            "request": "launch",
+            "mainClass": "JavaCore.Array.ArrayDataTypes",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "arrayList",
             "request": "launch",
             "mainClass": "JavaCore.Array.arrayList",
