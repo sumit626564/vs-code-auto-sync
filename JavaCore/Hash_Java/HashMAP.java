@@ -76,6 +76,13 @@ public class HashMAP {
         for(String key: userdata.keySet()){
             System.out.println(key + " --> "+userdata.get(key));
         }
+
+        // Condition Method for Searching Algorithm
+        if(userdata.containsKey("email")){
+            System.out.println("Your email: "+ userdata.get("email"));
+        }else{
+            System.out.println("Not Found result: ");
+        }
     }
 
 }
