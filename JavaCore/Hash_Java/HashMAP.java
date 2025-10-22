@@ -17,6 +17,21 @@ import java.util.HashMap;
  * 
  * =====Note:-====
  *                 This is why lookup, insert, and delete are super fast in HashMap.
+ * 
+ * ===============================================================================================================
+ * 
+ *  Important HashMap Methods
+ *  |        Method                 |           Description                          |
+    | ----------------------------- | ---------------------------------------------- |
+    | `put(K key, V value)`         | Adds key-value pair (or updates if key exists) |
+    | `get(Object key)`             | Returns value for a key                        |
+    | `remove(Object key)`          | Deletes a key-value pair                       |
+    | `containsKey(Object key)`     | Checks if a key exists                         |
+    | `containsValue(Object value)` | Checks if a value exists                       |
+    | `keySet()`                    | Returns all keys                               |
+    | `values()`                    | Returns all values                             |
+    | `entrySet()`                  | Returns all key-value pairs as Set<Entry<K,V>> |
+
  */
 
 public class HashMAP {
@@ -43,6 +58,9 @@ public class HashMAP {
         hashmap.put("Banana", 700);  // replace old value
         System.out.println("Updated Banana Price: " + hashmap.get("Banana"));
 
-        System.out.println(hashmap);
+        // Loop through HashMap
+        for(String key: hashmap.keySet()){
+            System.out.println(key + " --> "+ hashmap.get(key));
+        }
     }    
 }
