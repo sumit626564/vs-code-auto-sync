@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HashMAP",
+            "request": "launch",
+            "mainClass": "JavaCore.Hash_Java.HashMAP",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "UnionUserInput",
             "request": "launch",
             "mainClass": "JavaCore.HashMapOver.UnionUserInput",

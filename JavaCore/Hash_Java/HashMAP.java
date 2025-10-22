@@ -23,6 +23,14 @@ public class HashMAP {
     public static void main(String[] args) {
         
         // create HashMap
-        HashMap<String, Integer> hashmap = new HashMap<>()
+        HashMap<String, Integer> hashmap = new HashMap<>();
+
+        // Insert elements
+        hashmap.put("Apple",100);
+        hashmap.put("Banana", 60);
+        hashmap.put("Mango", 120);
+        hashmap.put("Orango", 70);
+
+        System.out.println("Initial HashMap: " + hashmap);
     }    
 }
