@@ -7,6 +7,6 @@ public class CaseInsensitive {
         ArrayList<String> names = new ArrayList<>();
         names.add("Sumit");
         names.add("Rahul");
-        names
+        names.add("")
     }
 }
