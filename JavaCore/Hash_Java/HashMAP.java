@@ -62,5 +62,20 @@ public class HashMAP {
         for(String key: hashmap.keySet()){
             System.out.println(key + " --> "+ hashmap.get(key));
         }
-    }    
+
+        /* ===============================================================================
+         *    All type of data store in data in dictionary
+         */
+
+        HashMap<String, Object> userdata = new HashMap<>();
+        userdata.put("Name", "Sumit Singh");
+        userdata.put("Age", 24);
+        userdata.put("Email", "rajputsinghshear@gmail.com");
+        userdata.put("Mobile +91 ", 6265642463L);
+
+        for(String key: userdata.keySet()){
+            System.out.println(key + " --> "+userdata.get(key));
+        }
+    }
+
 }
