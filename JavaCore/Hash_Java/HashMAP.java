@@ -31,6 +31,8 @@ public class HashMAP {
         hashmap.put("Mango", 120);
         hashmap.put("Orango", 70);
 
+        //
         System.out.println("Initial HashMap: " + hashmap);
+
     }    
 }
