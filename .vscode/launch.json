@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "arrayList",
+            "request": "launch",
+            "mainClass": "JavaCore.Array.arrayList",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "InputHashMap",
             "request": "launch",
             "mainClass": "JavaCore.Hash_Java.InputHashMap",
