@@ -21,7 +21,9 @@ public class InputHashMap {
             hashInput.put(key, value);
         }
         System.out.println("\nItems in the map: ");
-        for(String key : )
+        for(String key : hashInput.keySet()){
+            System.out.println( "user  data: " + key +" ==> " + hashInput.get(key));
+        }
 
 
     }
