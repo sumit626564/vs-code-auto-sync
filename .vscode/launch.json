@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DublicateStringArrayRemove",
+            "request": "launch",
+            "mainClass": "JavaCore.Array.HashSetDublicate.DublicateStringArrayRemove",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "SearchCustomObjects",
             "request": "launch",
             "mainClass": "JavaCore.Array.search.SearchCustomObjects",
