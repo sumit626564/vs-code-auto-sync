@@ -24,11 +24,13 @@ public class SearchCustomObjects {
 
         System.out.println("Search : Type Any thing: ");
         String  searchName = input.nextLine();
+        boolean foundd = false;
         for(Person p : people){      // "p" is a temporarily  Variable
             if(p.name.equals(searchName)){
-                System.out.println("Found: " + p.name + " age: ");
+                System.out.println("Found: " + p.name + " age: "+ p.age);
+                foundd = false;
             }
         }
-        
+        input.close();
     }
 }

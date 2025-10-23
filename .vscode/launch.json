@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SearchCustomObjects",
+            "request": "launch",
+            "mainClass": "JavaCore.Array.search.SearchCustomObjects",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "CaseSenstiveSearch",
             "request": "launch",
             "mainClass": "JavaCore.Array.CaseSenstiveSearch",
