@@ -1,5 +1,3 @@
-package JavaCore.Array.HashSetDublicate;
-
 import java.util.*;
 
 public class DublicateStringArrayRemove {
