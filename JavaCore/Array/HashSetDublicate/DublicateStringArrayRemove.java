@@ -23,5 +23,5 @@ public class DublicateStringArrayRemove {
 
 /* If you want to Preserve Order -- Using {LinkedHashSet} 
  *  Syntax:-
- *          Set<String> unique = new LinkedHashSet<>(Arrays.asList(words))
+ *          LinkedHashSet<String> unique = new LinkedHashSet<>(Arrays.asList(words));
 */
