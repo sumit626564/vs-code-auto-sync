@@ -22,14 +22,18 @@ public class SearchCustomObjects {
         people.add(new Person("Rahul", 25));
         people.add(new Person("Priya", 22));
 
-        System.out.println("Search : Type Any thing: ");
+        System.out.print("Search : Type Any thing: ");
         String  searchName = input.nextLine();
         boolean foundd = false;
         for(Person p : people){      // "p" is a temporarily  Variable
-            if(p.name.equals(searchName)){
+            if(p.name.equalsIgnoreCase(searchName)){
                 System.out.println("Found: " + p.name + " age: "+ p.age);
-                foundd = false;
+                foundd = true;
+                break;    // stop searching after fiorst match
             }
+        }
+        if(!foundd){
+            System.out.println("Person not found !");
         }
         input.close();
     }
