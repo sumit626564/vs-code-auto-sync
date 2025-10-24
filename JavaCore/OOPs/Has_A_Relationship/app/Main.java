@@ -7,7 +7,7 @@ package JavaCore.OOPs.Has_A_Relationship.app;
  *                  Option 1: Compile All at Once (Best Way)
  */ 
 
-javac  JavaCore/OOPs/Has_A_Relationship/**/*.java
+import  JavaCore.OOPs.Has_A_Relationship.*;
 
 // Import Method
 //import JavaCore.OOPs.Has_A_Relationship.car.Car;
