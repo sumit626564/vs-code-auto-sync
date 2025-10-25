@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "B",
+            "request": "launch",
+            "mainClass": "JavaCore.OOPs.IsARelationship.B",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "JavaCore.OOPs.Has_A_Relationship.app.Main",
