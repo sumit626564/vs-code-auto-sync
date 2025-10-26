@@ -16,7 +16,7 @@ class Mythread2 extends Thread{
     public void run(){
         while (true) {
             System.out.println("Thread 2 for Chatting with her");
-            System.out.println("I am Sad");
+            System.out.println("I am Sad!");
         }
         
     }
