@@ -3,7 +3,7 @@ package JavaCore.MultiThreading;
 class MyThreadRunnable1 implements Runnable{
     public void run(){
         int i = 1;
-        while (i<50000000) {
+        while (i<10000) {
             System.out.println("I am a thread 1 not a threat 1");
 
         }
@@ -12,11 +12,12 @@ class MyThreadRunnable1 implements Runnable{
 class MyThreadRunnable2 implements Runnable{
     public void run(){
         int i = 1;
-        while (i<10000000) {
+        while (i<10000) {
             System.out.println("I am a thread 2 not a threat 2");
         }
     }
 }
+
 public class RunnableThread {
     public static void main(String[] args) {
         MyThreadRunnable1 bullet1 = new MyThreadRunnable1();
@@ -27,7 +28,7 @@ public class RunnableThread {
 
         //t1.start();  // we are not abe to run using t1.start
 
-        gun1.start();
+        gun1.start();   // this  is runnable is exact method of 
         gun2.start();
     }
 }
