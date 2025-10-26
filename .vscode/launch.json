@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExtendThread",
+            "request": "launch",
+            "mainClass": "JavaCore.MultiThreading.ExtendThread",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "B",
             "request": "launch",
             "mainClass": "JavaCore.OOPs.IsARelationship.B",
