@@ -20,13 +20,20 @@ class MyThread extends Thread{
     }
     public void run(){
         int i = 34;
-        System.out.println("Thank_you");
+        System.out.println("Thank_you " +  this.getName());
     }
 }
 public class ThreadPriority {
 
     public static void main(String[] args) {
         /* Ready Queue: T1, T2, T3, T4, T5 */
-
+        MyThread t1 =  new MyThread("Shubham Singh");
+        MyThread t2 = new MyThread("Sumit Singh");
+        MyThread t3 = new MyThread("Ankit Singh");
+        MyThread t4 = new MyThread("Anuj Singh (Most Important)");
+        t1.start();
+        t2.start();
+        t3.start();
+        t4.start();
     }
 }
