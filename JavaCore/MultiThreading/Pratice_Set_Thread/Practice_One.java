@@ -55,6 +55,7 @@ public class Practice_One {
        // p1.start();
         System.out.println(p1.getState());
         p2.start();
+        System.out.println(p2.getState());  // Runnable State
 
 
     }
