@@ -2,17 +2,27 @@ package JavaCore.MultiThreading.ThreadClass;
 
 
 
-class MyThreadRunnable implements Runnable{
-    public MyThreadRunnable (String name){
-        super(name);
+class MyThreadRunnableStringName implements Runnable{
+    private String name;
+    public MyThreadRunnableStringName(String name){
+        this.name = name;
     }
+    @Override
     public void run(){
+        System.out.println("Thread "+ name + " is running...");
         int i = 34;
-        System.out.println("The");
     }
 }
 public class ThreadRunnableStringName {
     public static void main(String[] args) {
+        // create runnable objects
+        MyThreadRunnableStringName runnable1 = new MyThreadRunnableStringName("Akash");
+        MyThreadRunnableStringName runnable2 = new MyThreadRunnableStringName("Ankit");
+
+        // create Thread objects and assign names
+        Thread t1 = new Thread(runnable1, "Thread-1");
+        Thread t2 = new Thread(runnable2, "Thread-2");
         
+        // Start Thread
     }
 }
