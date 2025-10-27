@@ -24,5 +24,11 @@ public class ThreadRunnableStringName {
         Thread t2 = new Thread(runnable2, "Thread-2");
         
         // Start Thread
+        t1.start();
+        t2.start();
+
+        // Print their names
+        System.out.println("Started: "+ t1.getName());
+        System.out.println("Started: "+ t2.getName());
     }
 }
