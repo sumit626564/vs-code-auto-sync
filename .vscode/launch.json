@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Practice_One",
+            "request": "launch",
+            "mainClass": "JavaCore.MultiThreading.Pratice_Set_Thread.Practice_One",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "ThreadMethods",
             "request": "launch",
             "mainClass": "JavaCore.MultiThreading.ThreadClass.ThreadMethods",
