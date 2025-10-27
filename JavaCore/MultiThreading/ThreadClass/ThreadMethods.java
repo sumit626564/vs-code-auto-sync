@@ -20,7 +20,7 @@ public class ThreadMethods {
         t2.start();  
        // t1.join();// this could be show the error because may t1.start() has already ended
        try {
-        t2.join();
+        t1.join();
        } catch (Exception e) {
         System.out.println(e);
        }
