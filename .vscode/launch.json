@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ThreadMethods",
+            "request": "launch",
+            "mainClass": "JavaCore.MultiThreading.ThreadClass.ThreadMethods",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "ThreadPriority",
             "request": "launch",
             "mainClass": "JavaCore.MultiThreading.ThreadClass.ThreadPriority",

@@ -12,7 +12,12 @@ class MyNewThread1 extends Thread{
 }
 public class ThreadMethods {
     public static void main(String[] args) {
-        
+        MyNewThread1 t1 = new MyNewThread1();
+        MyNewThread2 t2 = new MyNewThread2();
+
+        t1.start();
+        t2.start();  
+       // t1.join();// this could be show the error because may t1.start() has already ended
     }
 }
 
