@@ -29,9 +29,17 @@ public class Practice_One {
         PraticeThreadOne p1 = new PraticeThreadOne();
         PraticeThreadTwo p2 = new PraticeThreadTwo();
 
+        // set Priority
+        p1.setPriority(6);
+        p2.setPriority(9);
+
+        // if you want to see priority
+        System.out.println(p1.getPriority());
+        System.out.println(p2.getPriority());
+
         // start thread
-        p1.start();
-        p2.start();
+        //p1.start();
+        //p2.start();
 
 
     }
