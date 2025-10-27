@@ -36,6 +36,9 @@ public class ThreadPriority {
 
         // if you want to make priority  any particular thread
         t4.setPriority(Thread.MAX_PRIORITY);
+        t1.setPriority(Thread.MIN_PRIORITY);
+
+        // Start
         t1.start();
         t2.start();
         t3.start();
