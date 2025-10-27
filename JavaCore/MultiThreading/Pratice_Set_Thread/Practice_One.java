@@ -5,7 +5,14 @@ package JavaCore.MultiThreading.Pratice_Set_Thread;
  *          Write a Program to print "Good Morning" and "Welcome" Continuously on the screen in Java Using Threads. 
  * 
  * Question 2:
- *           Add a Step method in Welcome  Thread of 
+ *           Add a Step method in Welcome  Thread of question to delay is execution fo 200ms.
+ * 
+ * Question 3:
+ *          Demonstrate getPriority() and setPriority()  methods in Java Threads.
+ * 
+ * Question 4:
+ *           How do you get state of a given thread in Java.
+ *          
 */
 class PraticeThreadOne extends Thread{
     public void run(){
@@ -21,14 +28,14 @@ class PraticeThreadOne extends Thread{
 }
 class PraticeThreadTwo extends Thread{
     public void run(){
-        while (true) {
-            try{
-                Thread.sleep(30 );
-            }catch(Exception e){
-                System.out.println(e);
-            } 
-            System.out.println("Welcome");
-        }
+        //while (true) {
+        //    try{
+        //        Thread.sleep(30 );
+        //    }catch(Exception e){
+        //        System.out.println(e);
+        //    } 
+        //    System.out.println("Welcome");
+        //}
     }
 }
 public class Practice_One {
@@ -45,8 +52,9 @@ public class Practice_One {
         System.out.println(p2.getPriority());
 
         // start thread
-        //p1.start();
-        //p2.start();
+       // p1.start();
+        System.out.println(p1.getState());
+        p2.start();
 
 
     }
