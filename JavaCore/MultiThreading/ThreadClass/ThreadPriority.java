@@ -19,7 +19,10 @@ class MyThread extends Thread{
     }
     public void run(){
         int i = 34;
-        System.out.println("Thank_you " +  this.getName());
+        while (true) {
+            System.out.println("Thank_you " +  this.getName());
+        } 
+        
     }
 }
 public class ThreadPriority {
@@ -30,6 +33,9 @@ public class ThreadPriority {
         MyThread t2 = new MyThread("Sumit Singh");
         MyThread t3 = new MyThread("Ankit Singh");
         MyThread t4 = new MyThread("Anuj Singh (Most Important)");
+
+        // if you want to make priority  any particular thread
+        t4.setPriority(Thread.MAX_PRIORITY);
         t1.start();
         t2.start();
         t3.start();
