@@ -8,6 +8,8 @@ public class Factoriral {
         int fn = n * fact(n-1);
         return fn;
     }
+
+    
     public static void main(String[] args) {
         int n = 5;
         System.out.println("The factorial: "+fact(n));
