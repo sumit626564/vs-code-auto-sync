@@ -3,14 +3,23 @@ package JavaCore.MultiThreading.Pratice_Set_Thread;
 class PraticeThreadOne extends Thread{
     public void run(){
         while (true) {
-            System.out.println("Good Morning..!");
+            try{
+                Thread.sleep(30 );
+            }catch(Exception e){
+                System.out.println(e);
+            } 
+            System.out.println("Good Morning");
         }
     }
 }
 class PraticeThreadTwo extends Thread{
     public void run(){
         while (true) {
-            Thread.sleep(200); 
+            try{
+                Thread.sleep(30 );
+            }catch(Exception e){
+                System.out.println(e);
+            } 
             System.out.println("Welcome");
         }
     }
