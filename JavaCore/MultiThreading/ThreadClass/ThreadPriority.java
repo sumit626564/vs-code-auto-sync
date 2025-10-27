@@ -10,7 +10,7 @@ package JavaCore.MultiThreading.ThreadClass;
  * 
  * These values [1..10] are passed into Thread."setPriority(int)" to assign priorities to java thread. The Default priority of a Java thread is NORM_PRIORITY. (A Java thread that doesn't explicitly call "setPriority" runs at NORM_PRIORITY.)
  * A JVM is free to implement priorities in any way it chooses, including ignoring the value.
- * The Java HotSpot virtual machine currently associates each Java Thread with a unique native thread. The relationship between the Java thread and the 
+ * The Java HotSpot virtual machine currently associates each Java Thread with a unique native thread. The relationship between the Java thread and the  native thread is stable and persists for the lifetime of the Java thread.
  */
 
 public class ThreadPriority {
