@@ -2,12 +2,12 @@ package JavaCore.Recursion;
 
 public class RecursionBasics {
     public static void printDec(int n){
-        if(n == 1){
+        if(n == 10){
             System.out.println(1);
             return;
         }
         System.out.print(n+" ");
-        printDec(n-1);
+        printDec(n+1);
     }
 
     public static void main(String[] args) {
