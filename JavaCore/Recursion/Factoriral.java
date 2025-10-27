@@ -17,6 +17,9 @@ public class Factoriral {
         return natural;
     }
 
+    public static int Fibonacci(int n){
+        
+    }
     public static void main(String[] args) {
         int n = 5;
         System.out.println("The factorial: "+fact(n));
