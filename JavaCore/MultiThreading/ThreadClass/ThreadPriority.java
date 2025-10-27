@@ -13,6 +13,16 @@ package JavaCore.MultiThreading.ThreadClass;
  * The Java HotSpot virtual machine currently associates each Java Thread with a unique native thread. The relationship between the Java thread and the  native thread is stable and persists for the lifetime of the Java thread.
  */
 
+class MyThread extends Thread{
+    String name;
+    public MyThread(String name){
+        this.name = name;
+    }
+    public void run(){
+        int i = 34;
+        System.out.println("Thank_you");
+    }
+}
 public class ThreadPriority {
 
     public static void main(String[] args) {
