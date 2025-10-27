@@ -10,13 +10,20 @@ class  Mythr extends Thread{
         super(name);
     }
     public void run(){
-        while (true) {
-            System.out.println("I am thread");
-        }
+        int i =  34;
+        System.out.println("Thank you");
+
+        //while (true) {
+        //    
+        //    System.out.println("I am thread");
+        //}
     }
 }
 public class ThreadStringName {
     public static void main(String[] args) {
-        Mythr t = new Mythr(name)
+        Mythr t = new Mythr("Sumit"); /* if you have multiple thread */
+        
+        t.start();
+        System.out.println("The id of the thread t is "+ t.getName());
     }
 }
