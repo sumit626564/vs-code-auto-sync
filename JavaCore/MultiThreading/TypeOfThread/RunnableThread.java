@@ -1,4 +1,4 @@
-package JavaCore.MultiThreading;
+package JavaCore.MultiThreading.TypeOfThread;
 
 class MyThreadRunnable1 implements Runnable{
     public void run(){

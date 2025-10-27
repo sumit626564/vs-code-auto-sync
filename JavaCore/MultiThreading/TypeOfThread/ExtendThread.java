@@ -1,4 +1,4 @@
-package JavaCore.MultiThreading;
+package JavaCore.MultiThreading.TypeOfThread;
 
 
 class Mythread1 extends Thread{
