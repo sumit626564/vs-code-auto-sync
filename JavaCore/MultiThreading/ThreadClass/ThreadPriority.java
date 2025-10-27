@@ -4,9 +4,11 @@ package JavaCore.MultiThreading.ThreadClass;
  *  Java Threads
  *      The JVM defines a range of ten logical priorities for Java Thread, including:
  *      sytnax:-
- *              java.lang.Thread.MIN_pr
- */
-
+ *              java.lang.Thread.MIN_PRIORITY = 1
+ *              java.lang.Thread.NORM_PRIORITY = 5
+ *              java.lang.Thread.MAX_PRIORITY = 10
+ * 
+ * These values [1..10] are passed into Thread.setPriority(int) to assign priorities to java thread.
 public class ThreadPriority {
 
     public static void main(String[] args) {
