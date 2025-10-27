@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RecursionBasics",
+            "request": "launch",
+            "mainClass": "JavaCore.Recursion.RecursionBasics",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "Practice_One",
             "request": "launch",
             "mainClass": "JavaCore.MultiThreading.Pratice_Set_Thread.Practice_One",
