@@ -1,5 +1,12 @@
 package JavaCore.MultiThreading.Pratice_Set_Thread;
 
+/* 
+ * Question 1:
+ *          Write a Program to print "Good Morning" and "Welcome" Continuously on the screen in Java Using Threads. 
+ * 
+ * Question 2:
+ *           Add a Step method in Welcome  Thread of 
+*/
 class PraticeThreadOne extends Thread{
     public void run(){
         while (true) {
