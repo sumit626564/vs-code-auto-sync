@@ -21,9 +21,13 @@ class  Mythr extends Thread{
 }
 public class ThreadStringName {
     public static void main(String[] args) {
-        Mythr t = new Mythr("Sumit"); /* if you have multiple thread */
-        
-        t.start();
-        System.out.println("The id of the thread t is "+ t.getName());
+        Mythr t1 = new Mythr("Sumit"); /* if you have multiple thread */
+        Mythr t2 = new Mythr("Harry");
+        t1.start();
+        t2.start();
+        System.out.println("The id of the thread t is "+ t1.getId());
+        System.out.println("The name of the thread t is " + t1.getName());
+        System.out.println("The id of the thread t is "+ t2.getId());
+        System.out.println("The is of thread t is "+ t2.getName());
     }
 }
