@@ -28,11 +28,13 @@ public class Factoriral {
 
     }
     public static void main(String[] args) {
-        int n = 5000;
+        int n = 25;
         System.out.println("The factorial: "+fact(n));
         System.out.println("=======================");
         System.out.println("The Natural Number: "+ NaturalNumber(n));
         System.out.println("=======================");
         System.out.println("Fibonacci: "+ Fibonacci(n));
+        System.out.println("========================");
+        
     }
 }
