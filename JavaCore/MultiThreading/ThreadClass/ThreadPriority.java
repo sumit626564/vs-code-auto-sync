@@ -14,9 +14,8 @@ package JavaCore.MultiThreading.ThreadClass;
  */
 
 class MyThread extends Thread{
-    String name;
     public MyThread(String name){
-        this.name = name;
+        super(name);
     }
     public void run(){
         int i = 34;
