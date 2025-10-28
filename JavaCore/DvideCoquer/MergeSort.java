@@ -11,7 +11,9 @@ public class MergeSort {
     public static void mergeSort(int arr[], int starting_index, int ending_index){
         // work
         int mid_index = starting_index +(ending_index - starting_index)/2;  // find out the mid of the array or you can write like this (starting_index + ending_index)/2
-        mergeSort(arr, starting_index, mid_index);
+        mergeSort(arr, starting_index, mid_index);  // left Part
+        mergeSort(arr, mid_index + 1, ending_index);  // right part
+        merge(arr, starting_index, mid_index, ending_index);  // assume the function does already exists
 
     }
     public static void main(String[] args) {
