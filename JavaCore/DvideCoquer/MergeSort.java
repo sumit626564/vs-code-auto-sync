@@ -45,7 +45,15 @@ public class MergeSort {
 
         // left part remain anyhting
         while (i<=mid_index) {
-            temp[k++]
+            temp[k++] = arr[i++];   // temp[k++] = arr[i++]; this is short of the above loop
+        }
+        // right part remain anything
+        while (j<=ending_index) {
+            temp[k++] = arr[j++];
+        }
+        // copy temp to original arr
+        for(k=0, i=starting_index; k<temp.length; k++, i++){
+            arr[i] = temp[k];
         }
     }   
 
