@@ -26,7 +26,11 @@ public class MergeSort {
         int temp[] = new int[ending_index-starting_index+1];  // 
         int i = starting_index;  // iterate for left part
         int j = mid_index + 1;   // iterator for right part
-        
+        int k = 0; // iterator for temp arr
+
+        while () {
+            
+        }
     }   
 
     public static void main(String[] args) {
