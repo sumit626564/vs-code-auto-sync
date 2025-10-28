@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Occurence",
+            "request": "launch",
+            "mainClass": "JavaCore.Recursion.Occurence",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "ArraySorted",
             "request": "launch",
             "mainClass": "JavaCore.Recursion.ArraySorted",

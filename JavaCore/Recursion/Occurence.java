@@ -19,7 +19,7 @@ public class Occurence {
          * if i we don't found the  key on the first index 
          * then we call FirstOccurrence
         */
-        return FirstOccurrence(arr, key, index+1);
+        return FirstOccurrnce(arr, key, index + 1);
     }
 
     public static void main(String[] args) {
