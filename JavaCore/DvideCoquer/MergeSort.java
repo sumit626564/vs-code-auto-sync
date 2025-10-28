@@ -19,7 +19,7 @@ public class MergeSort {
 
     public static void merge(int arr[], int starting_index, int mid_index, int ending_index){
         /* Create first temprorary  store the data for our right and left part */ 
-        
+        int temp = 
     }
     public static void main(String[] args) {
         int arr[] = {6, 3, 9, 5, 2, 8};
