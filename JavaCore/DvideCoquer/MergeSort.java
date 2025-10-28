@@ -23,7 +23,9 @@ public class MergeSort {
          * right (4, 6) = total_element(3)
          *    I want --> 6-0+1 = 7;
         */ 
-        int temp[] = new int[ending_index-starting_index+1];
+        int temp[] = new int[ending_index-starting_index+1];  // 
+        int i = starting_index;  // iterate for left part
+        int j = mid_index + 1;   // iterator for right part
     }   
     public static void main(String[] args) {
         int arr[] = {6, 3, 9, 5, 2, 8};
