@@ -13,8 +13,13 @@ public class MergeSort {
         int mid_index = starting_index +(ending_index - starting_index)/2;  // find out the mid of the array or you can write like this (starting_index + ending_index)/2
         mergeSort(arr, starting_index, mid_index);  // left Part
         mergeSort(arr, mid_index + 1, ending_index);  // right part
-        merge(arr, starting_index, mid_index, ending_index);  // assume the function does already exists
+        merge(arr, starting_index, mid_index, ending_index);  // assume the function are already exists
 
+    }
+
+    public static void merge(int arr[], int starting_index, int mid_index, int ending_index){
+        /* Create first temprorary  store the data for our right and left part */ 
+        
     }
     public static void main(String[] args) {
         int arr[] = {6, 3, 9, 5, 2, 8};
