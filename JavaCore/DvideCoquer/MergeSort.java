@@ -28,8 +28,24 @@ public class MergeSort {
         int j = mid_index + 1;   // iterator for right part
         int k = 0; // iterator for temp arr
 
-        while () {
-            
+        while (i <= mid_index && j <= ending_index) {
+            if(arr[i] < arr[j]){  
+            /*  
+             * arr[i] --> left part element
+             * arr[j] --> right part element
+            */
+                temp[k] = arr[i];
+                i++;
+            }else{
+                temp[k] = arr[j];
+                j++;
+            }
+            k++;
+        }
+
+        // left part remain anyhting
+        while (i<=mid_index) {
+            temp[k++]
         }
     }   
 
