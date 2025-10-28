@@ -22,9 +22,6 @@ public class Occurence {
         return FirstOccurrnce(arr, key, index + 1);
     }
 
-    public int LastOccurrence(int arr[], int key, int index){
-        int isFound = LastOccurrence(arr, key, index+1);
-    }
     public static void main(String[] args) {
         Occurence occur = new Occurence();
         int arr[] = {8, 3, 6, 9, 5, 10, 2, 5, 3};
