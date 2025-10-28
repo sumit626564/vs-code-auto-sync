@@ -18,9 +18,13 @@ public class MergeSort {
     }
 
     public static void merge(int arr[], int starting_index, int mid_index, int ending_index){
-        /* Create first temprorary  store the data for our right and left part */ 
-        int temp = 
-    }
+        /* Create first temprorary  store the data for our right and left part 
+         * left (0, 3) = total_element(4)
+         * right (4, 6) = total_element(3)
+         *    I want --> 6-0+1 = 7;
+        */ 
+        int temp[] = new int[ending_index-starting_index+1];
+    }   
     public static void main(String[] args) {
         int arr[] = {6, 3, 9, 5, 2, 8};
         mergeSort(arr, 0, arr.length-1);
