@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArraySorted",
+            "request": "launch",
+            "mainClass": "JavaCore.Recursion.ArraySorted",
+            "projectName": "Vs-Code_4009a399"
+        },
+        {
+            "type": "java",
             "name": "Factoriral",
             "request": "launch",
             "mainClass": "JavaCore.Recursion.Factoriral",

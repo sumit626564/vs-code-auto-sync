@@ -2,7 +2,7 @@ package JavaCore.Recursion;
 
 
 class sroted{
-    public static boolean isSorted(int arr[], int i) {
+    public boolean isSorted(int[] arr, int i) {
         if(i == arr.length-1){
             return true;
         }
@@ -15,8 +15,8 @@ class sroted{
 }
 public class ArraySorted {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6};
-        int i = 0;
-        System.out.println("Check Array Sorted: "+ isSorted(arr, i));
+        sroted sr = new sroted();
+        int[] arr = {1, 20, 3, 4, 5, 6};
+        System.out.println("Check Array Sorted: "+ sr.isSorted(arr, 0));
     }
 }
