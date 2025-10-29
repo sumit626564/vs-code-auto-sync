@@ -10,6 +10,9 @@ public class quickSort {
     }
 
     public static void quickSort(int arr[], int starting_index, int ending_index){
+        if(starting_index>=ending_index){
+            return;
+        }
         // last element
         int piviot_index = partition(arr, starting_index, ending_index);
         quickSort(arr, starting_index, piviot_index-1);  // left index
@@ -17,7 +20,8 @@ public class quickSort {
     }
 
     public static int partition(int arr[], int starting_index, int ending_index){
-        
+        int pivot = arr[ending_index];
+        int i =  starting_index-1; // to make place for els smaller than pivot
     }
     public static void main(String[] args) {
         int arr[] = {6, 3, 9, 5, 2, 8};
