@@ -1,17 +1,19 @@
 @echo off
 cd /d D:\Java\vs-code-auto-sync
 
-REM Check for changes in Git
-git status --porcelain > temp.txt
+:: Optional: Set Git identity (only needed first time)
+git config user.name "Sumit Singh Rajput"
+git config user.email "rajputsinghshear@gmail.com"
 
-for /f %%A in (temp.txt) do (
-    git add .
-    git commit -m "Auto update %date% %time%"
-    git push origin main
-    echo [%date% %time%] Auto push successful >> autopush.log
-    del temp.txt
-    exit /b
-)
+:: Add all changes
+git add .
 
-del temp.txt
-echo [%date% %time%] No changes to commit. >> autopush.log
+:: Commit with timestamp
+git commit -m "Auto commit on %date% %time%"
+
+:: Push to your branch (usually main)
+git push origin main
+
+:: Log
+echo [%date% %time%] Auto push done >> git_auto_sync.log
+exit
