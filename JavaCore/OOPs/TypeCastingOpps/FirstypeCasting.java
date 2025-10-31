@@ -11,7 +11,13 @@ package JavaCore.OOPs.TypeCastingOpps;
  * 
  *      (2) Object Type Casting
  *          (*)   Upcasting (Child --> Parent)
- *              ""
+ *              "you can always a child object to a parent refrence -- no explicit casting needed.  This is used fro runtime polymorphism."
+ * 
+ *          (*)  Downcasting (Parent -->  Child)
+ *             """Risky and must be explicit
+ *                  You convert a parent reference back to child type
+ *                  It requires explicit casting using parentheses.
+ *                  """
  */
 public class FirstypeCasting {
     public static void main(String[] args) {
