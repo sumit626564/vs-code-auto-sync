@@ -2,3 +2,9 @@
  1 file changed, 26 deletions(-)
 fatal: could not read Username for 'https://github.com': No such device or address
 /home/cyber-tech/Desktop/vs-code-auto-sync/auto_git_push.sh: line 15: rewrite: command not found
+[main 9b6d06e] Auto update: 2025-10-31 16:42:01
+ 3 files changed, 19 insertions(+)
+ create mode 100644 JavaCore/sdfg.java
+ create mode 100644 JavaCore/sg.java
+fatal: could not read Username for 'https://github.com': No such device or address
+/home/cyber-tech/Desktop/vs-code-auto-sync/auto_git_push.sh: line 15: rewrite: command not found
