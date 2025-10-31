@@ -20,3 +20,11 @@ fatal: could not read Username for 'https://github.com': No such device or addre
  1 file changed, 4 insertions(+)
 fatal: could not read Username for 'https://github.com': No such device or address
 /home/cyber-tech/Desktop/vs-code-auto-sync/auto_git_push.sh: line 15: rewrite: command not found
+[main 1969fce] Auto update: 2025-10-31 16:50:01
+ 4 files changed, 7 insertions(+), 3 deletions(-)
+ rename JavaCore/{sg.java => asasasa.java} (78%)
+ rename JavaCore/{ne.java => asddd.java} (79%)
+ rename JavaCore/{sdfg.java => suddddd.java} (77%)
+To https://github.com/sumit626564/vs-code-auto-sync.git
+   dd1dcb3..1969fce  main -> main
+/home/cyber-tech/Desktop/vs-code-auto-sync/auto_git_push.sh: line 15: rewrite: command not found
