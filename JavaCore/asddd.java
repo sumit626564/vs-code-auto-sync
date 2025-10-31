@@ -1,8 +1,7 @@
 package JavaCore;
 
-public class sg {
+public class asddd {
     public static void main(String[] args) {
         
     }
-    
 }

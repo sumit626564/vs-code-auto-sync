@@ -1,7 +1,8 @@
 package JavaCore;
 
-public class ne {
+public class asasasa {
     public static void main(String[] args) {
         
     }
+    
 }
