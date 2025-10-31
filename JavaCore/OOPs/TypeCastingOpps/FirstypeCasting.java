@@ -18,7 +18,19 @@ package JavaCore.OOPs.TypeCastingOpps;
  *                  You convert a parent reference back to child type
  *                  It requires explicit casting using parentheses.
  *                  """
- *              Note:- Use of "instanceof" before Down
+ *              Note:- Use of "instanceof" before Downcasting
+ *                          """To prevent runtime errors, always check the object type using the "instanceof" operator. """
+ * 
+ * """ Why Use Casting in OOPs..?
+ * -------------------------------------------------------------------------
+ *          | Reason               | Description                                       |
+* | -------------------- | ------------------------------------------------- |
+* | **Polymorphism**     | Enables runtime binding using parent references.  |
+* | **Code Reusability** | Write general code that works for all subclasses. |
+* | **Flexibility**      | Change behavior dynamically at runtime.           |
+* |--------------------- | ------------------------------------------------- |
+
+ * """
  */
 public class FirstypeCasting {
     public static void main(String[] args) {
