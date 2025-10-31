@@ -36,6 +36,6 @@ package JavaCore.OOPs.TypeCastingOpps;
 
 public class FirstypeCasting {
     public static void main(String[] args) {
-        String strem;
+        String strem;21
     }
 }
