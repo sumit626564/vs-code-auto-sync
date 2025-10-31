@@ -30,8 +30,7 @@ package JavaCore.OOPs.TypeCastingOpps;
 * | **Code Reusability** | Write general code that works for all subclasses. |
 * | **Flexibility**      | Change behavior dynamically at runtime.           |
 * |--------------------- | ------------------------------------------------- |
-
- * """
+* """
  */
 
 public class FirstypeCasting {
