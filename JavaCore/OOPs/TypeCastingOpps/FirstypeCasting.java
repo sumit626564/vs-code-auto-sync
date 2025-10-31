@@ -18,6 +18,7 @@ package JavaCore.OOPs.TypeCastingOpps;
  *                  You convert a parent reference back to child type
  *                  It requires explicit casting using parentheses.
  *                  """
+ *              Note:- Use of "instanceof" before Down
  */
 public class FirstypeCasting {
     public static void main(String[] args) {
