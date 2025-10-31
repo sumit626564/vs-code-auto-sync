@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Practice_One",
+            "request": "launch",
+            "mainClass": "JavaCore.MultiThreading.Pratice_Set_Thread.Practice_One",
+            "projectName": "vs-code-auto-sync_94a6eb72"
+        },
+        {
+            "type": "java",
             "name": "MergeSort",
             "request": "launch",
             "mainClass": "JavaCore.DvideCoquer.MergeSort",
