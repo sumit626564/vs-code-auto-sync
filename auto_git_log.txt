@@ -1,0 +1,4 @@
+[main 6f14915] Auto update: 2025-10-31 16:40:01
+ 1 file changed, 26 deletions(-)
+fatal: could not read Username for 'https://github.com': No such device or address
+/home/cyber-tech/Desktop/vs-code-auto-sync/auto_git_push.sh: line 15: rewrite: command not found
